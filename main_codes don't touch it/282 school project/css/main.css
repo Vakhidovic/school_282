@@ -63,7 +63,8 @@ body .wrapper {
           font-family: 'Lato', sans-serif;
           font-style: normal;
           font-weight: 500;
-          font-size: 1.1vw; }
+          font-size: 1.1vw;
+          text-decoration: none; }
           body .wrapper .header .header__links .header__item .header__link:hover {
             color: #21be8d; }
           body .wrapper .header .header__links .header__item .header__link::before {
@@ -95,7 +96,8 @@ body .wrapper {
           color: #424242;
           font-style: normal;
           font-weight: 500;
-          font-size: 1.4vw; }
+          font-size: 1.4vw;
+          text-decoration: none; }
           body .wrapper .header .header__links .header__item1 .header__link:hover {
             color: #1cb182; }
   body .wrapper .header2 {

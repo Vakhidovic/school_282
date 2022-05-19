@@ -45,6 +45,7 @@ body {
           position: relative;
           padding: 1%;
           cursor: pointer;
+
           &::before {
             content: "";
             width: 0;
@@ -78,6 +79,7 @@ body {
             font-style: normal;
             font-weight: 500;
             font-size: 1.1vw;
+            text-decoration: none;
             &:hover {
               color: #21be8d;
             }
@@ -110,13 +112,14 @@ body {
           }
         }
 
-        .header__item1 {padding: 1%;
+          .header__item1 {padding: 1%;
           cursor: pointer;
           .header__link {
             color: #424242;
             font-style: normal;
             font-weight: 500;
             font-size: 1.4vw;
+            text-decoration: none;
             &:hover{
               color: #1cb182;
             }
