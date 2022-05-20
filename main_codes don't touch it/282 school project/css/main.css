@@ -142,6 +142,7 @@ body .wrapper {
         body .wrapper .footer .container__footer .footer__location .footer__map iframe {
           border-radius: 50px;
           border: 3px solid #325DE9;
+          box-shadow: 6px 6px 8px #325DE9;
           width: 30vw;
           height: 20vw; }
         body .wrapper .footer .container__footer .footer__location p {
