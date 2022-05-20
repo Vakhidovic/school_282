@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: #fdfdfd;
+    width: 85%;
+    margin: auto;
+    border-radius: 50px;
+}
+.section__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card h3{
+    margin-bottom: 10px;
+    font-family: 'Lato' , sans-serif;
+    font-size: 2.5vh;
+}
+.card{
+    background: #FAFAFA;
+    border: 2px solid #ECECEC;
+    border-radius: 20px;
+    width: 30%;
+    height: 230px;
+    padding: 30px;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+}
+.card:hover{
+    background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
+    box-shadow: 10px 10px 70px -10px rgba(42, 67, 212, 0.15);
+    border-radius: 20px;
+    color: #ffffff;
+}
+.card:hover h3{
+    color: #23FFBD;;
+}
