@@ -97,14 +97,6 @@ body .wrapper {
           text-decoration: none; }
           body .wrapper .header .header__links .header__item1 .header__link:hover {
             color: #1cb182; }
-  body .wrapper .header2 {
-    margin-top: -3%;
-    width: 100%;
-    height: 59.8vw;
-    border-radius: 3.7%;
-    background: linear-gradient(274.78deg, rgba(50, 93, 233, 0.6) 0%, rgba(84, 140, 246, 0.61) 100%);
-    position: absolute;
-    top: 0; }
   body .wrapper .footer {
     padding-top: 5%;
     padding-bottom: 1%;
