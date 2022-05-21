@@ -140,15 +140,16 @@ body {
       }
 
     }
-    //.header2 {
-    //  margin-top: -3%;
-    //  width: 100%;
-    //  height: 59.8vw;
-    //  border-radius: 3.7%;
-    //  background: linear-gradient(274.78deg, rgba(50, 93, 233, 0.6) 0%, rgba(84, 140, 246, 0.61) 100%);
-    //  position: absolute;
-    //  top: 0;
-    //}
+    .main {
+      .section__lessons {
+        margin: 5% 0;
+        text-align: center;
+        button{
+          width: 5vw;
+          height: 2vw;
+        }
+      }
+    }
 
     .footer {
       padding-top: 5%;
@@ -231,4 +232,7 @@ body {
 
     }
   }
+}
+@media screen and (max-width: 767px) {
+
 }

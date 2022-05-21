@@ -97,6 +97,12 @@ body .wrapper {
           text-decoration: none; }
           body .wrapper .header .header__links .header__item1 .header__link:hover {
             color: #1cb182; }
+  body .wrapper .main .section__lessons {
+    margin: 5% 0;
+    text-align: center; }
+    body .wrapper .main .section__lessons button {
+      width: 5vw;
+      height: 2vw; }
   body .wrapper .footer {
     padding-top: 5%;
     padding-bottom: 1%;

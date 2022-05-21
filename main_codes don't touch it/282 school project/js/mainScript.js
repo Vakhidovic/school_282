@@ -1,3 +1,150 @@
+
+function my4(id) {
+    switch (id) {
+        case 1:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 2:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 3:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 4:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 5:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 6:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 7:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 8:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        case 9:
+            document.querySelector("#x").innerHTML =
+                `
+                   <button onclick="du()">A</button>
+                   <button onclick="du()">B</button>
+                   <button onclick="du()">V</button>
+                   <button onclick="du()">E</button>
+                   <button onclick="du()">G</button>
+                `;
+            break;
+        default:
+            document.querySelector("#x").innerHTML = "Bunday sinf yoq";
+            break;
+    }
+}
+
+function sinf1() {
+    let a = 1;
+    my4(a);
+}
+function sinf2() {
+    let a = 1;
+    my4(a);
+}
+function sinf3() {
+    let a = 1;
+    my4(a);
+}
+function sinf4() {
+    let a = 1;
+    my4(a);
+}
+function sinf5() {
+    let a = 1;
+    my4(a);
+}
+function sinf6() {
+    let a = 1;
+    my4(a);
+}
+function sinf7() {
+    let a = 1;
+    my4(a);
+}
+function sinf8() {
+    let a = 1;
+    my4(a);
+}
+function sinf9() {
+    let a = 1;
+    my4(a);
+}
+
+
+
+
+
+
+
+
+
+// burger menu
+
+
 const menuBtn = document.querySelector('.menu-btn');
 let menuOpen = false;
 menuBtn.addEventListener('click', ()=> {
@@ -9,7 +156,7 @@ menuBtn.addEventListener('click', ()=> {
         menuBtn.classList.remove('open');
         menuOpen=false;
     }
-})
+});
 
 
 
@@ -18,23 +165,5 @@ menuBtn.addEventListener('click', ()=> {
 
 
 
-// function my4(id) {
-//     switch (id) {
-//         case 1:
-//             document.querySelector("#x").innerHTML = `
-//                    <button onclick="du()">A</button>
-//                    <button onclick="du()">B</button>
-//                    <button onclick="du()">V</button>
-//                    <button onclick="du()">E</button>
-//                    <button onclick="du()">G</button>`;
-//             break;
-//         default:
-//             document.querySelector("#x").innerHTML = "Bunday sinf yoq";
-//             break;
-//     }
-// }
-//
-// function a9() {
-//     var a = 1;
-//     my4(a);
-// }
+
+

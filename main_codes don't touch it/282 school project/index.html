@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Школа 282</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/second.css">
@@ -10,7 +11,16 @@
 <body>
 
 <div class="wrapper">
-    <div class="header">
+    <header class="header">
+        <div class="nav-brand">
+            <a href="#">Школа<sup>282</sup></a>
+            <div class="burger">
+                <div class="menu-btn">
+                    <div class="menu-btn__burger">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="img__header">
             <img src="imgs/back.png" alt="">
             <div class="title__header">
@@ -22,6 +32,7 @@
                 </div>
             </div>
         </div>
+
         <div class="header__links">
             <div class="header__item1">
                 <a class="header__link" href="#">Школа<sup>282</sup></a></div>
@@ -36,10 +47,10 @@
             <div class="header__item">
                 <a class="header__link" href="#">Мероприятия</a></div>
         </div>
-    </div>
-<!--    <div class="header2"></div>-->
 
-    <div class="main">
+    </header>
+
+    <main class="main">
         <div class="section__aboutus">
             <div class="img__aboutUS">
                 <a href=""><img src="imgs/Rectangle%20264.png" alt=""></a>
@@ -51,26 +62,29 @@
                     предопределяет высокую востребованность распределения внутренних резервов и ресурсов.</p>
             </div>
         </div>
-        <div class="section__"></div>
-        <div class="section__"></div>
-        <div class="section__">
-<!--            <p id="x">Sinfni tanlang</p>-->
 
-<!--            <div class="buttons">-->
-<!--                <button onclick="a9()">1-sinf</button>-->
-<!--                <button onclick="a9()">2-sinf</button>-->
-<!--                <button onclick="a9()">3-sinf</button>-->
-<!--                <button onclick="a9()">4-sinf</button>-->
-<!--                <button onclick="a9()">5-sinf</button>-->
-<!--                <button onclick="a9()">6-sinf</button>-->
-<!--                <button onclick="a9()">7-sinf</button>-->
-<!--                <button onclick="a9()">8-sinf</button>-->
-<!--                <button onclick="a9()">9-sinf</button>-->
-<!--            </div>-->
+        <div class="section__"></div>
+        <div class="section__"></div>
+
+        <div class="section__lessons">
+            <p>Sinfni tanlang</p>
+
+            <div class="buttons">
+                <button onclick="sinf1()">1-sinf</button>
+                <button onclick="sinf2()">2-sinf</button>
+                <button onclick="sinf3()">3-sinf</button>
+                <button onclick="sinf4()">4-sinf</button>
+                <button onclick="sinf5()">5-sinf</button>
+                <button onclick="sinf6()">6-sinf</button>
+                <button onclick="sinf7()">7-sinf</button>
+                <button onclick="sinf8()">8-sinf</button>
+                <button onclick="sinf9()">9-sinf</button>
+            </div>
+            <div id="x" class="buttons2"></div>
         </div>
-    </div>
+    </main>
 
-    <div class="footer">
+    <footer class="footer">
         <div class="container__footer">
             <div class="footer__logo">
                 <a href="">Школа<sup>282</sup></a>
@@ -97,7 +111,7 @@
             </div>
         </div>
 
-    </div>
+    </footer>
 </div>
 
 
