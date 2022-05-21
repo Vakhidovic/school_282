@@ -3,7 +3,7 @@ body .wrapper {
   overflow: hidden; }
   body .wrapper .header {
     width: 100%; }
-    body .wrapper .header .img__header img {
+    body .wrapper .header .img__header .imglogo2 {
       width: 100%; }
     body .wrapper .header .img__header .title__header {
       position: relative;
@@ -21,7 +21,7 @@ body .wrapper {
       width: 80%;
       display: flex;
       justify-content: space-around;
-      background-color: rgba(245, 245, 245, 0.93);
+      background-color: rgba(245, 245, 245, 0.95);
       align-items: center;
       padding: 0.5% 0;
       border-radius: 50px;
@@ -153,5 +153,47 @@ body .wrapper {
             margin: 0 1.5%; }
             body .wrapper .footer .container__footer .footer__location .footer__icons a img:hover {
               width: 3.5vw; }
+
+@media screen and (max-width: 639px) {
+  body .wrapper .header .img__header .title__header {
+    margin-top: 0; }
+    body .wrapper .header .img__header .title__header .imglogo2 {
+      height: 120vw; }
+    body .wrapper .header .img__header .title__header .img__logo img {
+      width: 47vw; }
+    body .wrapper .header .img__header .title__header .text__header p {
+      font-size: 2.6vw; }
+  body .wrapper .header .header__links {
+    margin-top: -300%;
+    display: grid;
+    width: 50%;
+    border-radius: 0;
+    height: 100%;
+    left: 0; }
+    body .wrapper .header .header__links .header__item .header__link {
+      font-size: 3.5vw;
+      display: block; }
+    body .wrapper .header .header__links .header__item1 .header__link {
+      font-size: 5vw; } }
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  body .wrapper .header .img__header .imglogo2 {
+    width: 150%;
+    height: 100vw; }
+  body .wrapper .header .img__header .title__header .img__logo img {
+    width: 47vw; }
+  body .wrapper .header .img__header .title__header .text__header p {
+    font-size: 2.6vw; }
+  body .wrapper .header .header__links {
+    margin-top: -300%;
+    display: grid;
+    width: 50%;
+    border-radius: 0;
+    height: 100%;
+    left: 0; }
+    body .wrapper .header .header__links .header__item .header__link {
+      font-size: 3.5vw;
+      display: block; }
+    body .wrapper .header .header__links .header__item1 .header__link {
+      font-size: 5vw; } }
 
 /*# sourceMappingURL=main.css.map */

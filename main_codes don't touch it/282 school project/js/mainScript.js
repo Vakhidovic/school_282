@@ -151,12 +151,18 @@ menuBtn.addEventListener('click', ()=> {
     if(!menuOpen) {
         menuBtn.classList.add('open');
         menuOpen=true;
+        document.querySelector(".header__links").style.marginTop="0";
+        document.querySelector(".header__links").style.top="0";
+        document.querySelector(".header__links").style.transition="all 0.3s linear";
     }
     else {
         menuBtn.classList.remove('open');
         menuOpen=false;
+        document.querySelector(".header__links").style.marginTop="-300%";
     }
 });
+
+
 
 
 
