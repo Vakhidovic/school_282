@@ -27,6 +27,12 @@ body {
             font-size: 1.3vw;
           }
         }
+
+        .scrolltop {
+          position: fixed;
+          bottom: 10%;
+          right: 5%;
+        }
       }
 
       .header__links {
@@ -233,22 +239,27 @@ body {
     }
   }
 }
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 500px) {
   body{
     .wrapper {
       .header {
         .img__header {
+          .imglogo2 {
+            width: 200%;
+            height: 180vw;
+          }
           .title__header {
-           margin-top: 0;
-            .imglogo2 {
-              height: 120vw;
-            }
+            margin-top: -80%;
             .img__logo img{
-              width: 47vw;
+              width: 60vw;
             }
-            .text__header p {
-              font-size: 2.6vw;
+            .text__header {
+              width: 70%;
+              p {
+                font-size: 4vw;
+              }
             }
+
           }
         }
         .header__links {
@@ -269,25 +280,33 @@ body {
           }
         }
       }
+      main{
+        margin-top: 55%;
+      }
     }
   }
 }
-@media screen and (min-width: 640px) and (max-width: 767px) {
+@media screen and (min-width: 500px) and (max-width: 639px) {
   body{
     .wrapper {
       .header {
         .img__header {
           .imglogo2 {
-            width: 150%;
-            height: 100vw;
+            width: 160%;
+            height: 130vw;
           }
           .title__header {
+            margin-top: -80%;
             .img__logo img{
-              width: 47vw;
+              width: 54vw;
             }
-            .text__header p {
-              font-size: 2.6vw;
+            .text__header {
+              width: 70%;
+              p {
+                font-size: 3vw;
+              }
             }
+
           }
         }
         .header__links {
@@ -307,6 +326,56 @@ body {
             font-size: 5vw;
           }
         }
+      }
+      main{
+        margin-top: 55%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  body{
+    .wrapper {
+      .header {
+        .img__header {
+          .imglogo2 {
+            width: 150%;
+            height: 120vw;
+          }
+          .title__header {
+            margin-top: -80%;
+            .img__logo img{
+              width: 54vw;
+            }
+            .text__header {
+              width: 70%;
+              p {
+                font-size: 3vw;
+              }
+            }
+
+          }
+        }
+        .header__links {
+          margin-top: -300%;
+          display: grid;
+          width: 50%;
+          border-radius: 0;
+          height: 100%;
+          left: 0;
+          .header__item {
+            .header__link {
+              font-size: 3.5vw;
+              display: block;
+            }
+          }
+          .header__item1 .header__link {
+            font-size: 5vw;
+          }
+        }
+      }
+      main{
+        margin-top: 55%;
       }
     }
   }

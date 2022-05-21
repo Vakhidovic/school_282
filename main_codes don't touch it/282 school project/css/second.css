@@ -50,7 +50,10 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 
 }
 @media screen and (max-width: 475px){
-    .header__link{
+    .header__links{
+        margin-top: -15%;
+    }
+    .header__link {
         font-size: 1.3vw;
     }
     .nav-brand {
@@ -113,7 +116,12 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     .menu-btn.open{
         border: 3px solid #23FFBD;
     }
+    .scrolltop img {
+        width: 10vw;
+        height: 10vw;
+    }
 }
+
 @media screen  and (min-width: 476px) and (max-width: 660px){
     .header__links {
         margin-top: -15%;
@@ -176,6 +184,10 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     }
     .menu-btn.open{
         border: 3px solid #23FFBD;
+    }
+    .scrolltop img {
+        width: 9vw;
+        height: 9vw;
     }
 }
 @media screen  and (min-width: 661px) and (max-width: 767px){
@@ -244,5 +256,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
         border: 3px solid #23FFBD;
     }
 
-
+.scrolltop img {
+    width: 8vw;
+    height: 8vw;
+}
 }
