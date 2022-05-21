@@ -40,3 +40,23 @@
 .card:hover h3{
     color: #23FFBD;;
 }
+
+@media screen and (max-width: 767px) {
+
+    .section__cards{
+        display: block;
+    }
+    .card h3{
+        font-size: 13px;
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+    }
+    .card{
+        font-size: 11px;
+        width: 80%;
+        height: 30%;
+        margin: 15px auto;
+    }
+}
