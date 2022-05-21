@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3a18988-61b0-42f1-b661-15a4e693699e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.sass-cache/1cad9055f8a984763a3e749fd5c9d902ff2b4395/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/1cad9055f8a984763a3e749fd5c9d902ff2b4395/main.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/second.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/second.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,13 +36,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\school_282\main_codes don't touch it\282 school project\imgs" />
       <recent name="C:\umarov\282 school project" />
       <recent name="C:\umarov\282 school project\css" />
     </key>
@@ -78,9 +70,8 @@
       <workItem from="1652781730210" duration="718000" />
       <workItem from="1652782522019" duration="490000" />
       <workItem from="1652947022461" duration="721000" />
-      <workItem from="1652948373594" duration="2284000" />
-      <workItem from="1653061253775" duration="611000" />
-      <workItem from="1653061966075" duration="4649000" />
+      <workItem from="1652948373594" duration="2360000" />
+      <workItem from="1653104274937" duration="60000" />
     </task>
     <servers />
   </component>
