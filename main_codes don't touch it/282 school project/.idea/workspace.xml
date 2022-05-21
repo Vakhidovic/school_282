@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3a18988-61b0-42f1-b661-15a4e693699e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mainScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mainScript.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +73,10 @@
       <workItem from="1652782522019" duration="490000" />
       <workItem from="1652947022461" duration="721000" />
       <workItem from="1652948373594" duration="2360000" />
+<<<<<<< Updated upstream
       <workItem from="1653104274937" duration="60000" />
+=======
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
