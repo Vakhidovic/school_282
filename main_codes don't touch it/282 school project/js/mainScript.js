@@ -140,8 +140,6 @@ function sinf9() {
 
 
 
-
-
 // burger menu
 
 
@@ -161,22 +159,5 @@ menuBtn.addEventListener('click', ()=> {
         document.querySelector(".header__links").style.marginTop="-300%";
     }
 });
-
-
-
-
-var header = document.querySelector(".buttons");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-        let current = document.getElementsByClassName("active");
-        if (current.length > 0) {
-            current[0].className = current[0].className.replace(" active", "");
-        }
-        this.className += " active";
-    });
-}
-
-
 
 
