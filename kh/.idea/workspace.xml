@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4c1daf-a5e0-45e6-b22a-a956eb0adcf3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../main_codes don't touch it/282 school project/imgs/computer.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main_codes don't touch it/282 school project/css/second.css" beforeDir="false" afterPath="$PROJECT_DIR$/../main_codes don't touch it/282 school project/css/second.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main_codes don't touch it/282 school project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../main_codes don't touch it/282 school project/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +67,11 @@
       <workItem from="1653063180161" duration="2459000" />
       <workItem from="1653105423983" duration="3217000" />
       <workItem from="1653113755515" duration="1206000" />
+<<<<<<< HEAD
       <workItem from="1653139798102" duration="617000" />
+=======
+      <workItem from="1653204902234" duration="2774000" />
+>>>>>>> 48c0d869d6a3a6fb694fcf2539c5bf4347efcf50
     </task>
     <servers />
   </component>

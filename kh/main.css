@@ -1,12 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 .container{
     background: #fdfdfd;
     width: 85%;
     margin: auto;
     border-radius: 50px;
+}
+.header__text h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
 }
 .section__cards{
     display: flex;
@@ -14,13 +16,21 @@
     flex-wrap: wrap;
 }
 .card h3{
-    margin-bottom: 10px;
+    margin: 2% 0;
     font-family: 'Lato' , sans-serif;
-    font-size: 2.5vh;
+    font-weight: 600;
+    font-size: 1.3vw;
+    font-style: normal;
 }
-.section__header{
-     margin-bottom: 3%;
- }
+.card p {
+    font-size: 1vw;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.header__text {
+    margin: 2% 0;
+}
 .card{
     background: #FAFAFA;
     border: 2px solid #ECECEC;
@@ -40,23 +50,60 @@
 .card:hover h3{
     color: #23FFBD;;
 }
-
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 500px) {
     .section__cards{
         display: block;
     }
     .card h3{
-        font-size: 13px;
+        font-size: 4vw;
+    }
+    .card p{
+        font-size: 2.7vw;
+
     }
     .card img{
-        width: 50px;
-        height: 50px;
+        width: 14vw;
+        height: 14vw;
     }
     .card{
-        font-size: 11px;
-        width: 80%;
-        height: 30%;
-        margin: 15px auto;
+        width: 90%;
+        height: 45vw;
+        margin: 6% auto;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    .section__cards{
+        display: block;
+    }
+    .card h3{
+        font-size: 3.3vw;
+    }
+    .card p{
+        font-size: 2.3vw;
+    }
+    .card img{
+        width: 10vw;
+        height: 10vw;
+    }
+    .card{
+        width: 85%;
+        height: 35vw;
+        margin: 4% auto;
+        padding: 5%;
+        box-sizing: border-box;
+    }
+}
+@media screen and (min-width: 768px)  and (max-width: 1024px){
+    .card {
+        width: 45%;
+        margin: 3% 2% 3% 0;
+    }
+   .card h3 {
+       font-size: 2vw;
+   }
+    .card p {
+        font-size: 1.5vw;
     }
 }

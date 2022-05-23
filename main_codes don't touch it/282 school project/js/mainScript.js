@@ -140,8 +140,6 @@ function sinf9() {
 
 
 
-
-
 // burger menu
 
 
@@ -161,15 +159,5 @@ menuBtn.addEventListener('click', ()=> {
         document.querySelector(".header__links").style.marginTop="-300%";
     }
 });
-
-
-
-
-
-
-
-
-
-
 
 
