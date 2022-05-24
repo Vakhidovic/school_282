@@ -154,6 +154,9 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     color: #424242;
 }
 
+
+
+
 .img__raspi img {
    border-radius: 4%;
 }
@@ -362,6 +365,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     }
 }
 @media screen and (min-width: 661px) and (max-width: 767px){
+
     .header__links {
         margin-top: -15%;
         align-items: center;
@@ -444,4 +448,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     .card p {
         font-size: 1.5vw;
     }
+
 }
+
+

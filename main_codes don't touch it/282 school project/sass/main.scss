@@ -166,10 +166,12 @@ body {
         border-radius: 50px;
         position: relative;
         z-index: 4;
+
         .container__lessons {
           width: 90%;
           margin: auto;
-          h2{
+
+          h2 {
             font-family: 'Lato', sans-serif;
             font-style: normal;
             font-weight: 700;
@@ -177,26 +179,30 @@ body {
             color: #fff;
             text-align: left;
           }
+
           #myDIV {
             width: 100%;
             margin: auto;
             padding: 1% 0;
             display: flex;
             justify-content: space-between;
+
             .btn1 {
               width: 6.5vw;
               height: 2.5vw;
               border-radius: 20px;
               border: none;
               outline: none;
-              padding: 10px 16px;
               cursor: pointer;
+              font-size: 1.2vw;
+
               &:hover {
                 background-color: #23FFBD;
               }
             }
+
             .active {
-              background-color:#23FFBD;
+              background-color: #23FFBD;
             }
 
 
@@ -209,19 +215,21 @@ body {
             justify-content: left;
 
             .btn2 {
-              width: 6.5vw;
+              width: 7vw;
               height: 2.5vw;
               border-radius: 20px;
+              font-size: 1vw;
               border: none;
               outline: none;
-              padding: 10px 16px;
               cursor: pointer;
+
               &:hover {
                 background-color: #23FFBD;
               }
             }
+
             .active {
-              background-color:#23FFBD;
+              background-color: #23FFBD;
             }
           }
 
@@ -231,11 +239,15 @@ body {
             display: flex;
             justify-content: left;
             padding: 1% 0;
-            button{
+
+            button {
               outline: 0;
-              width:12vw;
+              //width:12vw;
               height: 2.5vw;
+              padding: 0 1%;
               border-radius: 20px;
+              font-size: 1.4vw;
+
               &:hover {
                 background-color: #23FFBD;
               }
@@ -329,201 +341,27 @@ body {
   }
 }
 
-  @media screen and (max-width: 499px) {
-    body {
-      .wrapper {
-        .header {
-          .img__header {
-            .imglogo2 {
-              width: 200%;
-              height: 180vw;
-            }
 
-            .scrolltop {
-              bottom: 5%;
-
-              img {
-                width: 8vw;
-                height: 8vw;
-              }
-            }
-
-            .title__header {
-              margin-top: -80%;
-
-              .img__logo img {
-                width: 60vw;
-              }
-
-              .text__header {
-                width: 70%;
-
-                p {
-                  font-size: 4vw;
-                }
-              }
-
-            }
-          }
-
-          .header__links {
-            margin-top: -300%;
-            display: grid;
-            width: 50%;
-            border-radius: 0;
-            height: 100%;
-            left: 0;
-
-            .header__item {
-              .header__link {
-                font-size: 3.5vw;
-                display: block;
-              }
-            }
-
-            .header__item1 .header__link {
-              font-size: 5vw;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    .wrapper {
+      .header {
+        .img__header {
+          .scrolltop {
+            img {
+              width: 6vw;
+              height: 6vw;
             }
           }
         }
 
-        main {
-          margin-top: 55%;
-
-          .section__aboutus {
-            display: block;
-
-            .img__aboutUS {
-              display: block;
-
-              h3 {
-                display: block;
-                font-family: 'Lato', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                text-align: center;
-                font-size: 9vw;
-              }
-
-              img {
-                width: 90vw;
-              }
-            }
-
-            .text__aboutUS {
-              margin-top: 2%;
-              width: 120%;
-
-              h2 {
-                display: none;
-              }
-
-              p {
-                font-size: 4vw;
-                line-height: 22px;
-                font-weight: 500;
-                padding-left: 1%;
-              }
-            }
-          }
-        }
       }
-    }
-  }
-  @media screen and (min-width: 500px) and (max-width: 639px) {
-    body {
-      .wrapper {
-        .header {
-          .img__header {
-            .imglogo2 {
-              width: 160%;
-              height: 130vw;
-            }
 
-            .scrolltop {
-              img {
-                width: 7.5vw;
-                height: 7.5vw;
-              }
-            }
-
-            .title__header {
-              margin-top: -80%;
-
-              .img__logo img {
-                width: 54vw;
-              }
-
-              .text__header {
-                width: 70%;
-
-                p {
-                  font-size: 3vw;
-                }
-              }
-
-            }
-          }
-
-          .header__links {
-            margin-top: -300%;
-            display: grid;
-            width: 50%;
-            border-radius: 0;
-            height: 100%;
-            left: 0;
-
-            .header__item {
-              .header__link {
-                font-size: 3.5vw;
-                display: block;
-              }
-            }
-
-            .header__item1 .header__link {
-              font-size: 5vw;
-            }
-          }
-        }
-
-        main {
-          margin-top: 55%;
-
-          .section__aboutus {
-            display: block;
-
-            .img__aboutUS {
-              display: block;
-
-              h3 {
-                display: block;
-                font-family: 'Lato', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                text-align: center;
-                font-size: 7vw;
-              }
-
-              img {
-                width: 80vw;
-              }
-            }
-
-            .text__aboutUS {
-              margin-top: 2%;
-              width: 120%;
-
-              h2 {
-                display: none;
-              }
-
-              p {
-                font-size: 4vw;
-                line-height: 28px;
-                padding-left: 1%;
-              }
-            }
-          }
+      .section__lessons {
+        margin-top: -15%;
+        padding-top: 15%;
+        .container__lessons {
+          width: 100%;
         }
       }
     }
@@ -627,23 +465,209 @@ body {
         }
       }
     }
-  }
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-      .wrapper {
-        .header {
-          .img__header {
-            .scrolltop {
-              img {
-                width: 6vw;
-                height: 6vw;
+
+    @media screen and (min-width: 500px) and (max-width: 639px) {
+      body {
+        .wrapper {
+          .header {
+            .img__header {
+              .imglogo2 {
+                width: 160%;
+                height: 130vw;
+              }
+
+              .scrolltop {
+                img {
+                  width: 7.5vw;
+                  height: 7.5vw;
+                }
+              }
+
+              .title__header {
+                margin-top: -80%;
+
+                .img__logo img {
+                  width: 54vw;
+                }
+
+                .text__header {
+                  width: 70%;
+
+                  p {
+                    font-size: 3vw;
+                  }
+                }
+
+              }
+            }
+
+            .header__links {
+              margin-top: -300%;
+              display: grid;
+              width: 50%;
+              border-radius: 0;
+              height: 100%;
+              left: 0;
+
+              .header__item {
+                .header__link {
+                  font-size: 3.5vw;
+                  display: block;
+                }
+              }
+
+              .header__item1 .header__link {
+                font-size: 5vw;
               }
             }
           }
 
+          main {
+            margin-top: 55%;
+
+            .section__aboutus {
+              display: block;
+
+              .img__aboutUS {
+                display: block;
+
+                h3 {
+                  display: block;
+                  font-family: 'Lato', sans-serif;
+                  font-style: normal;
+                  font-weight: 700;
+                  text-align: center;
+                  font-size: 7vw;
+                }
+
+                img {
+                  width: 80vw;
+                }
+              }
+
+              .text__aboutUS {
+                margin-top: 2%;
+                width: 120%;
+
+                h2 {
+                  display: none;
+                }
+
+                p {
+                  font-size: 4vw;
+                  line-height: 28px;
+                  padding-left: 1%;
+                }
+              }
+            }
+          }
         }
       }
+
+      @media screen and (max-width: 499px) {
+        body {
+          .wrapper {
+            .header {
+              .img__header {
+                .imglogo2 {
+                  width: 200%;
+                  height: 180vw;
+                }
+
+                .scrolltop {
+                  bottom: 5%;
+
+                  img {
+                    width: 8vw;
+                    height: 8vw;
+                  }
+                }
+
+                .title__header {
+                  margin-top: -80%;
+
+                  .img__logo img {
+                    width: 60vw;
+                  }
+
+                  .text__header {
+                    width: 70%;
+
+                    p {
+                      font-size: 4vw;
+                    }
+                  }
+
+                }
+              }
+
+              .header__links {
+                margin-top: -300%;
+                display: grid;
+                width: 50%;
+                border-radius: 0;
+                height: 100%;
+                left: 0;
+
+                .header__item {
+                  .header__link {
+                    font-size: 3.5vw;
+                    display: block;
+                  }
+                }
+
+                .header__item1 .header__link {
+                  font-size: 5vw;
+                }
+              }
+            }
+
+            main {
+              margin-top: 55%;
+
+              .section__aboutus {
+                display: block;
+
+                .img__aboutUS {
+                  display: block;
+
+                  h3 {
+                    display: block;
+                    font-family: 'Lato', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    text-align: center;
+                    font-size: 9vw;
+                  }
+
+                  img {
+                    width: 90vw;
+                  }
+                }
+
+                .text__aboutUS {
+                  margin-top: 2%;
+                  width: 120%;
+
+                  h2 {
+                    display: none;
+                  }
+
+                  p {
+                    font-size: 4vw;
+                    line-height: 22px;
+                    font-weight: 500;
+                    padding-left: 1%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
     }
   }
+}
 
 
