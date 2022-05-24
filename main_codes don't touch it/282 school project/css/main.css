@@ -126,30 +126,41 @@ body {
           font-size: 3vw;
           color: #fff;
           text-align: left; }
-        body .wrapper .main .section__lessons .container__lessons .buttons {
+        body .wrapper .main .section__lessons .container__lessons #myDIV {
           width: 100%;
           margin: auto;
           padding: 1% 0;
           display: flex;
           justify-content: space-between; }
-          body .wrapper .main .section__lessons .container__lessons .buttons button {
+          body .wrapper .main .section__lessons .container__lessons #myDIV .btn1 {
             width: 6.5vw;
             height: 2.5vw;
             border-radius: 20px;
-            outline: 0; }
-        body .wrapper .main .section__lessons .container__lessons .buttons2 {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            cursor: pointer; }
+            body .wrapper .main .section__lessons .container__lessons #myDIV .btn1:hover {
+              background-color: #23FFBD; }
+          body .wrapper .main .section__lessons .container__lessons #myDIV .active {
+            background-color: #23FFBD; }
+        body .wrapper .main .section__lessons .container__lessons #x {
           width: 100%;
           margin: 2% auto;
           display: flex;
           justify-content: left; }
-          body .wrapper .main .section__lessons .container__lessons .buttons2 button {
+          body .wrapper .main .section__lessons .container__lessons #x .btn2 {
             width: 6.5vw;
             height: 2.5vw;
             border-radius: 20px;
-            outline: 0;
-            margin-right: 1%; }
-            body .wrapper .main .section__lessons .container__lessons .buttons2 button:hover {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            cursor: pointer; }
+            body .wrapper .main .section__lessons .container__lessons #x .btn2:hover {
               background-color: #23FFBD; }
+          body .wrapper .main .section__lessons .container__lessons #x .active {
+            background-color: #23FFBD; }
         body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya {
           width: 100%;
           margin: auto;

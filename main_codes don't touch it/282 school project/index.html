@@ -67,7 +67,7 @@
         </div>
 
         <div class="section__togaraklar">
-            <div class="container">
+            <div class="container1">
                 <div class="togarak__text"><h2>Кружки школы</h2></div>
                 <div class="section__cards">
                     <div class="card">
@@ -110,8 +110,8 @@
             <div class="container__lessons">
                 <h2>Расписание</h2>
 
-                <div class="buttons">
-                    <button class="btn1" onclick="sinf1()">1-класс</button>
+                <div id="myDIV">
+                    <button class="btn1 " onclick="sinf1()">1-класс</button>
                     <button class="btn1 " onclick="sinf2()">2-класс</button>
                     <button class="btn1 " onclick="sinf3()">3-класс</button>
                     <button class="btn1 " onclick="sinf4()">4-класс</button>
@@ -121,10 +121,14 @@
                     <button class="btn1 " onclick="sinf8()">8-класс</button>
                     <button class="btn1 " onclick="sinf9()">9-класс</button>
                 </div>
+
                 <div id="x" class="buttons2"></div>
+                <div id="table" class="table-raspisaniya"></div>
 
                 <div class="btn-raspisaniya">
-                    <button onclick="raspisani()">Расписание звонков</button>
+                    <button onclick="raspisaniya()">Расписание звонков</button>
+                    
+                    <div class="img__raspi"></div>
                 </div>
             </div>
         </div>

@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     position: relative;
     z-index: 5;
 }
-.container{
+.container1{
     background: #fdfdfd;
     width: 85%;
     margin: auto;
@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     border: 2px solid #ECECEC;
     border-radius: 20px;
     width: 30%;
-    height: 230px;
+    height: 45%;
     padding: 30px;
     margin-bottom: 3%;
     box-sizing: border-box;
@@ -120,6 +120,45 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
 .card:hover h3{
     color: #23FFBD;;
 }
+
+
+
+
+
+
+.table-raspisaniya {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card1 {
+    text-align: center;
+    border-radius: 20px;
+    width: 13%;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+.card1 h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1vw;
+    color: #424242;
+    margin-bottom: 12%;
+}
+.card1 p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.7vw;
+    color: #424242;
+}
+
+.img__raspi img {
+   border-radius: 4%;
+}
+
+
 
 
 .nav-brand {
