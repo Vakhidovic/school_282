@@ -255,6 +255,71 @@ body {
           }
         }
       }
+
+      .section__teachers {
+        padding-top: 15%;
+        margin-top: -15%;
+        width: 100%;
+        background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
+        border-radius: 50px;
+        #demo{
+          .carousel-inner {
+            .carousel-item {
+              .container__teachers {
+                width: 85%;
+                margin: auto;
+                display: flex;
+                .img__teachers {
+                  width: 40%;
+                  padding-top: 10%;
+                  img{}
+                }
+                .content__teachers {
+                  color: white;
+                  padding-top: 8%;
+                  width: 40%;
+                  font-family: 'Lato', sans-serif;
+                  font-style: normal;
+
+                  h2{
+                    font-weight: 700;
+                    font-size: 3vw;
+
+                  }
+                  .texts__teachers {
+                    h4{
+                      font-weight: 700;
+                      font-size: 1.5vw;
+                      color: #23FFBD;
+                      margin-top: 5%;
+                    }
+                    h5{
+                      font-weight: 500;
+                      font-size: 1vw;
+                    }
+                    p{
+                      font-weight: 400;
+                      font-size: 1.2vw;
+                      margin-top: 5%;
+                    }
+                    .title__teachers p{
+                      font-size: 1.3vw;
+                    }
+                    .arrows__teachers {
+                      margin: 20%;
+                      display: flex;
+                      justify-content: space-between;
+                    }
+                  }
+                }
+                .img__teachers2 {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
     }
 
     .footer {
@@ -669,5 +734,3 @@ body {
     }
   }
 }
-
-

@@ -175,6 +175,48 @@ body {
             font-size: 1.4vw; }
             body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button:hover {
               background-color: #23FFBD; }
+    body .wrapper .main .section__teachers {
+      padding-top: 15%;
+      margin-top: -15%;
+      width: 100%;
+      background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
+      border-radius: 50px; }
+      body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers {
+        width: 85%;
+        margin: auto;
+        display: flex; }
+        body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .img__teachers {
+          width: 40%;
+          padding-top: 10%; }
+        body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers {
+          color: white;
+          padding-top: 8%;
+          width: 40%;
+          font-family: 'Lato', sans-serif;
+          font-style: normal; }
+          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
+            font-weight: 700;
+            font-size: 3vw; }
+          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
+            font-weight: 700;
+            font-size: 1.5vw;
+            color: #23FFBD;
+            margin-top: 5%; }
+          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
+            font-weight: 500;
+            font-size: 1vw; }
+          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
+            font-weight: 400;
+            font-size: 1.2vw;
+            margin-top: 5%; }
+          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
+            font-size: 1.3vw; }
+          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
+            margin: 20%;
+            display: flex;
+            justify-content: space-between; }
+        body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .img__teachers2 {
+          display: none; }
     body .wrapper .footer {
       margin-top: -5%;
       padding-top: 9%;
