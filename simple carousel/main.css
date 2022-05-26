@@ -1,0 +1,39 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2A43D4;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #23FFBD;
+    margin-top: 10px;
+}
+.sliders{
+    display: flex;
+    overflow-x: scroll;
+    width: 1200px;
+}
+.slider{
+    background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
+    border-radius: 12.447px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.slider__text{
+    background: #fdfdfd;
+    width: 100%;
+    height: 100%;
+}
