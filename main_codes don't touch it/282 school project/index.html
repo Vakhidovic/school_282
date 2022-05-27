@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/second.css">
     <link rel="stylesheet" href="css/main.css">
 
+
 </head>
 <body>
 
@@ -49,7 +50,7 @@
             <div class="header__item">
                 <a class="header__link" href="#">Мероприятия</a></div>
             <div class="header__item">
-                <a class="header__link" href="#">Мероприятия</a></div>
+                <a class="header__link" href="#">Расписание</a></div>
         </div>
 
     </header>
@@ -233,7 +234,42 @@
             </div>
         </div>
 
-        <div class="section__"></div>
+        <div class="section__slideshow">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="imgs/Rectangle%20313.png"  alt=""  style="width:75%">
+                    <div class="text">Caption Text</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img  src="imgs/Rectangle%20313.png" alt="" style="width:75%">
+                    <div class="text">Caption Two</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="imgs/Rectangle%20313.png" alt="" style="width:75%">
+                    <div class="text">Caption Three</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="imgs/Rectangle%20313.png" alt="" style="width:75%">
+                    <div class="text">Caption Four</div>
+                </div>
+
+            </div>
+            <br>
+            <div class="arrows__slideshow">
+                <a class="prev" onclick="plusSlides(-1)"><img src="imgs/Group%2093.png" alt=""></a>
+                <a class="next" onclick="plusSlides(1)"><img src="imgs/Group%2094.png" alt=""></a>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
 
         <div class="section__lessons">
             <div class="container__lessons">
@@ -297,7 +333,7 @@
 <script src="js/jquery-3.3.1.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/teachers.js"></script>
+<script src="js/slideshow.js"></script>
 <script src="js/mainScript.js"></script>
 </body>
 </html>
