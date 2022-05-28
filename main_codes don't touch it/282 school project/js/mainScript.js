@@ -267,6 +267,7 @@ function raspisaniya2() {
     document.querySelector(".img__raspi").innerHTML=` `
 }
 
+
     // burger menu
     const menuBtn = document.querySelector('.menu-btn');
     let menuOpen = false;
@@ -290,7 +291,7 @@ function raspisaniya2() {
 
 var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("btn1");
-for (let i = 0; i < btns.length; i++) {
+for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function() {
         let current = document.getElementsByClassName("active");
         if (current.length > 0) {
@@ -299,7 +300,6 @@ for (let i = 0; i < btns.length; i++) {
         this.className += " active";
     });
 }
-
 
 
 

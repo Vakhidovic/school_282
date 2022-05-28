@@ -1,5 +1,6 @@
 body {
   position: relative;
+
   .wrapper {
     width: 100%;
     overflow: hidden;
@@ -261,18 +262,24 @@ body {
         width: 100%;
         background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
         border-radius: 50px;
-        #demo{
+
+        .carousel {
           .carousel-inner {
             .carousel-item {
               .container__teachers {
                 width: 85%;
                 margin: auto;
                 display: flex;
+
                 .img__teachers {
                   width: 40%;
                   padding-top: 10%;
-                  img{}
+
+                  img {
+                    width: 25vw;
+                  }
                 }
+
                 .content__teachers {
                   color: white;
                   padding-top: 8%;
@@ -280,30 +287,35 @@ body {
                   font-family: 'Lato', sans-serif;
                   font-style: normal;
 
-                  h2{
+                  h2 {
                     font-weight: 700;
                     font-size: 3vw;
 
                   }
+
                   .texts__teachers {
-                    h4{
+                    h4 {
                       font-weight: 700;
                       font-size: 1.5vw;
                       color: #23FFBD;
                       margin-top: 5%;
                     }
-                    h5{
+
+                    h5 {
                       font-weight: 500;
                       font-size: 1vw;
                     }
-                    p{
+
+                    p {
                       font-weight: 400;
                       font-size: 1.2vw;
                       margin-top: 5%;
                     }
-                    .title__teachers p{
+
+                    .title__teachers p {
                       font-size: 1.3vw;
                     }
+
                     .arrows__teachers {
                       margin: 20%;
                       display: flex;
@@ -311,9 +323,54 @@ body {
                     }
                   }
                 }
-                .img__teachers2 {
-                  display: none;
+
+              }
+
+              .img__teachers2 {
+                display: none;
+              }
+
+               @media(max-width: 767px) {
+                .container__teachers {
+                  .img__teachers {
+                    display: none;
+                  }
+                  .content__teachers {
+                    width: 90%;
+                    h2 {
+                      font-size: 6vw;
+                    }
+
+                    .texts__teachers {
+                      h4 {
+                        font-size: 3vw;
+                      }
+                      h5 {
+                        font-size: 2.5vw;
+                      }
+                      p {
+                        font-size: 2vw;
+                      }
+                      .title__teachers p {
+                        font-size: 2vw;
+                      }
+                      .arrows__teachers {
+                        margin-left: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        a span{
+                          width: 15vw;
+                        }
+                      }
+                    }
+                  }
                 }
+                .img__teachers2 {
+                  display: block;
+                  margin-top: -30%;
+                  width: 20vw;
+                }
+
               }
             }
           }
@@ -393,7 +450,7 @@ body {
               margin: 0 1.5%;
 
               img:hover {
-                width: 3.5vw;
+                width: 3vw;
               }
             }
           }
@@ -405,6 +462,309 @@ body {
   }
 }
 
+@media screen and (max-width: 499px) {
+  body {
+    .wrapper {
+      .header {
+        .img__header {
+          .imglogo2 {
+            width: 200%;
+            height: 180vw;
+          }
+
+          .scrolltop {
+            bottom: 5%;
+
+            img {
+              width: 8vw;
+              height: 8vw;
+            }
+          }
+
+          .title__header {
+            margin-top: -80%;
+
+            .img__logo img {
+              width: 60vw;
+            }
+
+            .text__header {
+              width: 70%;
+
+              p {
+                font-size: 4vw;
+              }
+            }
+
+          }
+        }
+
+        .header__links {
+          margin-top: -300%;
+          display: grid;
+          width: 50%;
+          border-radius: 0;
+          height: 100%;
+          left: 0;
+
+          .header__item {
+            .header__link {
+              font-size: 3.5vw;
+              display: block;
+            }
+          }
+
+          .header__item1 .header__link {
+            font-size: 5vw;
+          }
+        }
+      }
+
+      main {
+        margin-top: 55%;
+
+        .section__aboutus {
+          display: block;
+
+          .img__aboutUS {
+            display: block;
+
+            h3 {
+              display: block;
+              font-family: 'Lato', sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              text-align: center;
+              font-size: 9vw;
+            }
+
+            img {
+              width: 90vw;
+            }
+          }
+
+          .text__aboutUS {
+            margin-top: 2%;
+            width: 120%;
+
+            h2 {
+              display: none;
+            }
+
+            p {
+              font-size: 4vw;
+              line-height: 22px;
+              font-weight: 500;
+              padding-left: 1%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 639px) {
+  body {
+    .wrapper {
+      .header {
+        .img__header {
+          .imglogo2 {
+            width: 160%;
+            height: 130vw;
+          }
+
+          .scrolltop {
+            img {
+              width: 7.5vw;
+              height: 7.5vw;
+            }
+          }
+
+          .title__header {
+            margin-top: -80%;
+
+            .img__logo img {
+              width: 54vw;
+            }
+
+            .text__header {
+              width: 70%;
+
+              p {
+                font-size: 3vw;
+              }
+            }
+
+          }
+        }
+
+        .header__links {
+          margin-top: -300%;
+          display: grid;
+          width: 50%;
+          border-radius: 0;
+          height: 100%;
+          left: 0;
+
+          .header__item {
+            .header__link {
+              font-size: 3.5vw;
+              display: block;
+            }
+          }
+
+          .header__item1 .header__link {
+            font-size: 5vw;
+          }
+        }
+      }
+
+      main {
+        margin-top: 55%;
+
+        .section__aboutus {
+          display: block;
+
+          .img__aboutUS {
+            display: block;
+
+            h3 {
+              display: block;
+              font-family: 'Lato', sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              text-align: center;
+              font-size: 7vw;
+            }
+
+            img {
+              width: 80vw;
+            }
+          }
+
+          .text__aboutUS {
+            margin-top: 2%;
+            width: 120%;
+
+            h2 {
+              display: none;
+            }
+
+            p {
+              font-size: 4vw;
+              line-height: 28px;
+              padding-left: 1%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  body {
+    .wrapper {
+      .header {
+        .img__header {
+          .imglogo2 {
+            width: 150%;
+            height: 120vw;
+          }
+
+          .scrolltop {
+            img {
+              width: 7vw;
+              height: 7vw;
+            }
+          }
+
+          .title__header {
+            margin-top: -80%;
+
+            .img__logo img {
+              width: 54vw;
+            }
+
+            .text__header {
+              width: 70%;
+
+              p {
+                font-size: 3vw;
+              }
+            }
+
+          }
+        }
+
+        .header__links {
+          margin-top: -300%;
+          display: grid;
+          width: 50%;
+          border-radius: 0;
+          height: 100%;
+          left: 0;
+
+          .header__item {
+            .header__link {
+              font-size: 3.5vw;
+              display: block;
+            }
+          }
+
+          .header__item1 .header__link {
+            font-size: 5vw;
+          }
+        }
+      }
+
+      main {
+        margin-top: 55%;
+
+        .section__aboutus {
+          display: block;
+
+          .img__aboutUS {
+            display: block;
+
+
+            h3 {
+              display: block;
+              font-family: 'Lato', sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              text-align: center;
+              font-size: 6vw;
+            }
+
+            img {
+              width: 70vw;
+            }
+          }
+
+          .text__aboutUS {
+            margin-top: 2%;
+            width: 110%;
+
+            h2 {
+              display: none;
+            }
+
+            p {
+              font-family: 'Lato', sans-serif;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 3.5vw;
+              padding-left: 1%;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
@@ -424,312 +784,11 @@ body {
       .section__lessons {
         margin-top: -15%;
         padding-top: 15%;
+
         .container__lessons {
           width: 100%;
         }
       }
-    }
-  }
-  @media screen and (min-width: 640px) and (max-width: 767px) {
-    body {
-      .wrapper {
-        .header {
-          .img__header {
-            .imglogo2 {
-              width: 150%;
-              height: 120vw;
-            }
-
-            .scrolltop {
-              img {
-                width: 7vw;
-                height: 7vw;
-              }
-            }
-
-            .title__header {
-              margin-top: -80%;
-
-              .img__logo img {
-                width: 54vw;
-              }
-
-              .text__header {
-                width: 70%;
-
-                p {
-                  font-size: 3vw;
-                }
-              }
-
-            }
-          }
-
-          .header__links {
-            margin-top: -300%;
-            display: grid;
-            width: 50%;
-            border-radius: 0;
-            height: 100%;
-            left: 0;
-
-            .header__item {
-              .header__link {
-                font-size: 3.5vw;
-                display: block;
-              }
-            }
-
-            .header__item1 .header__link {
-              font-size: 5vw;
-            }
-          }
-        }
-
-        main {
-          margin-top: 55%;
-
-          .section__aboutus {
-            display: block;
-
-            .img__aboutUS {
-              display: block;
-
-              h3 {
-                display: block;
-                font-family: 'Lato', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                text-align: center;
-                font-size: 6vw;
-              }
-
-              img {
-                width: 70vw;
-              }
-            }
-
-            .text__aboutUS {
-              margin-top: 2%;
-              width: 110%;
-
-              h2 {
-                display: none;
-              }
-
-              p {
-                font-family: 'Lato', sans-serif;
-                font-style: normal;
-                font-weight: 600;
-                font-size: 3.5vw;
-                padding-left: 1%;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    @media screen and (min-width: 500px) and (max-width: 639px) {
-      body {
-        .wrapper {
-          .header {
-            .img__header {
-              .imglogo2 {
-                width: 160%;
-                height: 130vw;
-              }
-
-              .scrolltop {
-                img {
-                  width: 7.5vw;
-                  height: 7.5vw;
-                }
-              }
-
-              .title__header {
-                margin-top: -80%;
-
-                .img__logo img {
-                  width: 54vw;
-                }
-
-                .text__header {
-                  width: 70%;
-
-                  p {
-                    font-size: 3vw;
-                  }
-                }
-
-              }
-            }
-
-            .header__links {
-              margin-top: -300%;
-              display: grid;
-              width: 50%;
-              border-radius: 0;
-              height: 100%;
-              left: 0;
-
-              .header__item {
-                .header__link {
-                  font-size: 3.5vw;
-                  display: block;
-                }
-              }
-
-              .header__item1 .header__link {
-                font-size: 5vw;
-              }
-            }
-          }
-
-          main {
-            margin-top: 55%;
-
-            .section__aboutus {
-              display: block;
-
-              .img__aboutUS {
-                display: block;
-
-                h3 {
-                  display: block;
-                  font-family: 'Lato', sans-serif;
-                  font-style: normal;
-                  font-weight: 700;
-                  text-align: center;
-                  font-size: 7vw;
-                }
-
-                img {
-                  width: 80vw;
-                }
-              }
-
-              .text__aboutUS {
-                margin-top: 2%;
-                width: 120%;
-
-                h2 {
-                  display: none;
-                }
-
-                p {
-                  font-size: 4vw;
-                  line-height: 28px;
-                  padding-left: 1%;
-                }
-              }
-            }
-          }
-        }
-      }
-
-      @media screen and (max-width: 499px) {
-        body {
-          .wrapper {
-            .header {
-              .img__header {
-                .imglogo2 {
-                  width: 200%;
-                  height: 180vw;
-                }
-
-                .scrolltop {
-                  bottom: 5%;
-
-                  img {
-                    width: 8vw;
-                    height: 8vw;
-                  }
-                }
-
-                .title__header {
-                  margin-top: -80%;
-
-                  .img__logo img {
-                    width: 60vw;
-                  }
-
-                  .text__header {
-                    width: 70%;
-
-                    p {
-                      font-size: 4vw;
-                    }
-                  }
-
-                }
-              }
-
-              .header__links {
-                margin-top: -300%;
-                display: grid;
-                width: 50%;
-                border-radius: 0;
-                height: 100%;
-                left: 0;
-
-                .header__item {
-                  .header__link {
-                    font-size: 3.5vw;
-                    display: block;
-                  }
-                }
-
-                .header__item1 .header__link {
-                  font-size: 5vw;
-                }
-              }
-            }
-
-            main {
-              margin-top: 55%;
-
-              .section__aboutus {
-                display: block;
-
-                .img__aboutUS {
-                  display: block;
-
-                  h3 {
-                    display: block;
-                    font-family: 'Lato', sans-serif;
-                    font-style: normal;
-                    font-weight: 700;
-                    text-align: center;
-                    font-size: 9vw;
-                  }
-
-                  img {
-                    width: 90vw;
-                  }
-                }
-
-                .text__aboutUS {
-                  margin-top: 2%;
-                  width: 120%;
-
-                  h2 {
-                    display: none;
-                  }
-
-                  p {
-                    font-size: 4vw;
-                    line-height: 22px;
-                    font-weight: 500;
-                    padding-left: 1%;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-
     }
   }
 }

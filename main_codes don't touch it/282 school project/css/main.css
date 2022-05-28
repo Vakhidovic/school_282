@@ -181,42 +181,69 @@ body {
       width: 100%;
       background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
       border-radius: 50px; }
-      body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers {
+      body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers {
         width: 85%;
         margin: auto;
         display: flex; }
-        body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .img__teachers {
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .img__teachers {
           width: 40%;
           padding-top: 10%; }
-        body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .img__teachers img {
+            width: 25vw; }
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers {
           color: white;
           padding-top: 8%;
           width: 40%;
           font-family: 'Lato', sans-serif;
           font-style: normal; }
-          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
             font-weight: 700;
             font-size: 3vw; }
-          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
             font-weight: 700;
             font-size: 1.5vw;
             color: #23FFBD;
             margin-top: 5%; }
-          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
             font-weight: 500;
             font-size: 1vw; }
-          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
             font-weight: 400;
             font-size: 1.2vw;
             margin-top: 5%; }
-          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
             font-size: 1.3vw; }
-          body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
             margin: 20%;
             display: flex;
             justify-content: space-between; }
-        body .wrapper .main .section__teachers #demo .carousel-inner .carousel-item .container__teachers .img__teachers2 {
+      body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
+        display: none; }
+      @media (max-width: 767px) {
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .img__teachers {
           display: none; }
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers {
+          width: 90%; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
+            font-size: 6vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
+            font-size: 3vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
+            font-size: 2.5vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
+            font-size: 2vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
+            font-size: 2vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
+            margin-left: 50%;
+            display: flex;
+            justify-content: space-between; }
+            body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers a span {
+              width: 15vw; }
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
+          display: block;
+          margin-top: -30%;
+          width: 20vw; } }
     body .wrapper .footer {
       margin-top: -5%;
       padding-top: 9%;
@@ -267,122 +294,9 @@ body {
             body .wrapper .footer .container__footer .footer__location .footer__icons a {
               margin: 0 1.5%; }
               body .wrapper .footer .container__footer .footer__location .footer__icons a img:hover {
-                width: 3.5vw; }
+                width: 3vw; }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  body .wrapper .header .img__header .scrolltop img {
-    width: 6vw;
-    height: 6vw; }
-  body .wrapper .section__lessons {
-    margin-top: -15%;
-    padding-top: 15%; }
-    body .wrapper .section__lessons .container__lessons {
-      width: 100%; } }
-@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 640px) and (max-width: 767px) {
-  body .wrapper .header .img__header .imglogo2 {
-    width: 150%;
-    height: 120vw; }
-  body .wrapper .header .img__header .scrolltop img {
-    width: 7vw;
-    height: 7vw; }
-  body .wrapper .header .img__header .title__header {
-    margin-top: -80%; }
-    body .wrapper .header .img__header .title__header .img__logo img {
-      width: 54vw; }
-    body .wrapper .header .img__header .title__header .text__header {
-      width: 70%; }
-      body .wrapper .header .img__header .title__header .text__header p {
-        font-size: 3vw; }
-  body .wrapper .header .header__links {
-    margin-top: -300%;
-    display: grid;
-    width: 50%;
-    border-radius: 0;
-    height: 100%;
-    left: 0; }
-    body .wrapper .header .header__links .header__item .header__link {
-      font-size: 3.5vw;
-      display: block; }
-    body .wrapper .header .header__links .header__item1 .header__link {
-      font-size: 5vw; }
-  body .wrapper main {
-    margin-top: 55%; }
-    body .wrapper main .section__aboutus {
-      display: block; }
-      body .wrapper main .section__aboutus .img__aboutUS {
-        display: block; }
-        body .wrapper main .section__aboutus .img__aboutUS h3 {
-          display: block;
-          font-family: 'Lato', sans-serif;
-          font-style: normal;
-          font-weight: 700;
-          text-align: center;
-          font-size: 6vw; }
-        body .wrapper main .section__aboutus .img__aboutUS img {
-          width: 70vw; }
-      body .wrapper main .section__aboutus .text__aboutUS {
-        margin-top: 2%;
-        width: 110%; }
-        body .wrapper main .section__aboutus .text__aboutUS h2 {
-          display: none; }
-        body .wrapper main .section__aboutus .text__aboutUS p {
-          font-family: 'Lato', sans-serif;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 3.5vw;
-          padding-left: 1%; } }
-@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 640px) and (max-width: 767px) and (min-width: 500px) and (max-width: 639px) {
-  body .wrapper .header .img__header .imglogo2 {
-    width: 160%;
-    height: 130vw; }
-  body .wrapper .header .img__header .scrolltop img {
-    width: 7.5vw;
-    height: 7.5vw; }
-  body .wrapper .header .img__header .title__header {
-    margin-top: -80%; }
-    body .wrapper .header .img__header .title__header .img__logo img {
-      width: 54vw; }
-    body .wrapper .header .img__header .title__header .text__header {
-      width: 70%; }
-      body .wrapper .header .img__header .title__header .text__header p {
-        font-size: 3vw; }
-  body .wrapper .header .header__links {
-    margin-top: -300%;
-    display: grid;
-    width: 50%;
-    border-radius: 0;
-    height: 100%;
-    left: 0; }
-    body .wrapper .header .header__links .header__item .header__link {
-      font-size: 3.5vw;
-      display: block; }
-    body .wrapper .header .header__links .header__item1 .header__link {
-      font-size: 5vw; }
-  body .wrapper main {
-    margin-top: 55%; }
-    body .wrapper main .section__aboutus {
-      display: block; }
-      body .wrapper main .section__aboutus .img__aboutUS {
-        display: block; }
-        body .wrapper main .section__aboutus .img__aboutUS h3 {
-          display: block;
-          font-family: 'Lato', sans-serif;
-          font-style: normal;
-          font-weight: 700;
-          text-align: center;
-          font-size: 7vw; }
-        body .wrapper main .section__aboutus .img__aboutUS img {
-          width: 80vw; }
-      body .wrapper main .section__aboutus .text__aboutUS {
-        margin-top: 2%;
-        width: 120%; }
-        body .wrapper main .section__aboutus .text__aboutUS h2 {
-          display: none; }
-        body .wrapper main .section__aboutus .text__aboutUS p {
-          font-size: 4vw;
-          line-height: 28px;
-          padding-left: 1%; } }
-@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 640px) and (max-width: 767px) and (min-width: 500px) and (max-width: 639px) and (max-width: 499px) {
+@media screen and (max-width: 499px) {
   body .wrapper .header .img__header .imglogo2 {
     width: 200%;
     height: 180vw; }
@@ -436,5 +350,118 @@ body {
           line-height: 22px;
           font-weight: 500;
           padding-left: 1%; } }
+@media screen and (min-width: 500px) and (max-width: 639px) {
+  body .wrapper .header .img__header .imglogo2 {
+    width: 160%;
+    height: 130vw; }
+  body .wrapper .header .img__header .scrolltop img {
+    width: 7.5vw;
+    height: 7.5vw; }
+  body .wrapper .header .img__header .title__header {
+    margin-top: -80%; }
+    body .wrapper .header .img__header .title__header .img__logo img {
+      width: 54vw; }
+    body .wrapper .header .img__header .title__header .text__header {
+      width: 70%; }
+      body .wrapper .header .img__header .title__header .text__header p {
+        font-size: 3vw; }
+  body .wrapper .header .header__links {
+    margin-top: -300%;
+    display: grid;
+    width: 50%;
+    border-radius: 0;
+    height: 100%;
+    left: 0; }
+    body .wrapper .header .header__links .header__item .header__link {
+      font-size: 3.5vw;
+      display: block; }
+    body .wrapper .header .header__links .header__item1 .header__link {
+      font-size: 5vw; }
+  body .wrapper main {
+    margin-top: 55%; }
+    body .wrapper main .section__aboutus {
+      display: block; }
+      body .wrapper main .section__aboutus .img__aboutUS {
+        display: block; }
+        body .wrapper main .section__aboutus .img__aboutUS h3 {
+          display: block;
+          font-family: 'Lato', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          text-align: center;
+          font-size: 7vw; }
+        body .wrapper main .section__aboutus .img__aboutUS img {
+          width: 80vw; }
+      body .wrapper main .section__aboutus .text__aboutUS {
+        margin-top: 2%;
+        width: 120%; }
+        body .wrapper main .section__aboutus .text__aboutUS h2 {
+          display: none; }
+        body .wrapper main .section__aboutus .text__aboutUS p {
+          font-size: 4vw;
+          line-height: 28px;
+          padding-left: 1%; } }
+@media screen and (min-width: 640px) and (max-width: 767px) {
+  body .wrapper .header .img__header .imglogo2 {
+    width: 150%;
+    height: 120vw; }
+  body .wrapper .header .img__header .scrolltop img {
+    width: 7vw;
+    height: 7vw; }
+  body .wrapper .header .img__header .title__header {
+    margin-top: -80%; }
+    body .wrapper .header .img__header .title__header .img__logo img {
+      width: 54vw; }
+    body .wrapper .header .img__header .title__header .text__header {
+      width: 70%; }
+      body .wrapper .header .img__header .title__header .text__header p {
+        font-size: 3vw; }
+  body .wrapper .header .header__links {
+    margin-top: -300%;
+    display: grid;
+    width: 50%;
+    border-radius: 0;
+    height: 100%;
+    left: 0; }
+    body .wrapper .header .header__links .header__item .header__link {
+      font-size: 3.5vw;
+      display: block; }
+    body .wrapper .header .header__links .header__item1 .header__link {
+      font-size: 5vw; }
+  body .wrapper main {
+    margin-top: 55%; }
+    body .wrapper main .section__aboutus {
+      display: block; }
+      body .wrapper main .section__aboutus .img__aboutUS {
+        display: block; }
+        body .wrapper main .section__aboutus .img__aboutUS h3 {
+          display: block;
+          font-family: 'Lato', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          text-align: center;
+          font-size: 6vw; }
+        body .wrapper main .section__aboutus .img__aboutUS img {
+          width: 70vw; }
+      body .wrapper main .section__aboutus .text__aboutUS {
+        margin-top: 2%;
+        width: 110%; }
+        body .wrapper main .section__aboutus .text__aboutUS h2 {
+          display: none; }
+        body .wrapper main .section__aboutus .text__aboutUS p {
+          font-family: 'Lato', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 3.5vw;
+          padding-left: 1%; } }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  body .wrapper .header .img__header .scrolltop img {
+    width: 6vw;
+    height: 6vw; }
+  body .wrapper .section__lessons {
+    margin-top: -15%;
+    padding-top: 15%; }
+    body .wrapper .section__lessons .container__lessons {
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
