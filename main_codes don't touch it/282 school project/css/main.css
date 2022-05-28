@@ -108,9 +108,9 @@ body {
             body .wrapper .header .header__links .header__item1 .header__link:hover {
               color: #1cb182; }
     body .wrapper .main .section__lessons {
-      margin-top: -6%;
+      margin-top: -15%;
       padding: 6%;
-      padding-top: 10%;
+      padding-top: 25%;
       text-align: center;
       background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
       border-radius: 50px;
@@ -176,8 +176,8 @@ body {
             body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button:hover {
               background-color: #23FFBD; }
     body .wrapper .main .section__teachers {
-      padding-top: 15%;
-      margin-top: -15%;
+      padding-top: 25%;
+      margin-top: -25%;
       width: 100%;
       background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
       border-radius: 50px; }
@@ -214,7 +214,7 @@ body {
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
             font-size: 1.3vw; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
-            margin: 20%;
+            margin-top: 20%;
             display: flex;
             justify-content: space-between; }
       body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
@@ -225,28 +225,30 @@ body {
         body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers {
           width: 90%; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
-            font-size: 6vw; }
+            font-size: 7vw; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
-            font-size: 3vw; }
+            font-size: 4.5vw; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
-            font-size: 2.5vw; }
+            font-size: 4vw; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
-            font-size: 2vw; }
+            font-size: 3.5vw; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
-            font-size: 2vw; }
+            font-size: 3.5vw; }
           body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
             margin-left: 50%;
             display: flex;
             justify-content: space-between; }
-            body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers a span {
-              width: 15vw; }
+            body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers a .carousel-control-next-icon, body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers .carousel-control-prev-icon {
+              width: 15vw;
+              height: 15vw; }
         body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
           display: block;
-          margin-top: -30%;
-          width: 20vw; } }
+          margin-top: -25%; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 img {
+            width: 45vw; } }
     body .wrapper .footer {
-      margin-top: -5%;
-      padding-top: 9%;
+      margin-top: -15%;
+      padding-top: 18%;
       padding-bottom: 1%;
       width: 100%;
       background-color: #333333; }
@@ -349,7 +351,7 @@ body {
           font-size: 4vw;
           line-height: 22px;
           font-weight: 500;
-          padding-left: 1%; } }
+          padding: 3%; } }
 @media screen and (min-width: 500px) and (max-width: 639px) {
   body .wrapper .header .img__header .imglogo2 {
     width: 160%;

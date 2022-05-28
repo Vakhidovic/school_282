@@ -173,8 +173,8 @@ h1, h2, h3, h4, h5, h6 {font-size: inherit;font-weight: 400;}
     z-index: 9;
     position: relative;
     border-radius: 50px;
-    margin-top: -10%;
-    padding-top: 15%;
+    margin-top: -25%;
+    padding-top: 30%;
 }
 .slideshow-container {
     width: 85%;

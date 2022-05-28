@@ -6305,7 +6305,7 @@ a.close.disabled {
   justify-content: center;
   width: 25%;
   color: #23FFBD;
-  opacity: 0.5;
+  opacity: 0.6;
   text-align: center;
   transition: opacity 0.15s ease;
 }
