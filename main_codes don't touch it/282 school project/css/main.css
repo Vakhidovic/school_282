@@ -219,6 +219,31 @@ body {
             justify-content: space-between; }
       body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
         display: none; }
+      @media (max-width: 767px) {
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .img__teachers {
+          display: none; }
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers {
+          width: 90%; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
+            font-size: 6vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
+            font-size: 3vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
+            font-size: 2.5vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
+            font-size: 2vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
+            font-size: 2vw; }
+          body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers {
+            margin-left: 50%;
+            display: flex;
+            justify-content: space-between; }
+            body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .arrows__teachers a span {
+              width: 15vw; }
+        body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
+          display: block;
+          margin-top: -30%;
+          width: 20vw; } }
     body .wrapper .footer {
       margin-top: -5%;
       padding-top: 9%;
@@ -428,35 +453,7 @@ body {
           font-style: normal;
           font-weight: 600;
           font-size: 3.5vw;
-          padding-left: 1%; }
-    body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers {
-      width: 95%;
-      display: block; }
-      body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .img__teachers {
-        display: none; }
-      body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers {
-        color: white;
-        padding-top: 8%;
-        width: 40%;
-        font-family: 'Lato', sans-serif;
-        font-style: normal; }
-        body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers h2 {
-          font-size: 10vw; }
-        body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h4 {
-          font-size: 3vw; }
-        body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers h5 {
-          font-weight: 500;
-          font-size: 1vw; }
-        body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers p {
-          font-weight: 400;
-          font-size: 1.2vw;
-          margin-top: 5%; }
-        body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers .content__teachers .texts__teachers .title__teachers p {
-          font-size: 2vw; }
-    body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 {
-      display: block; }
-      body .wrapper main .section__teachers .carousel .carousel-inner .carousel-item .img__teachers2 img {
-        width: 25vw; } }
+          padding-left: 1%; } }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body .wrapper .header .img__header .scrolltop img {
     width: 6vw;
