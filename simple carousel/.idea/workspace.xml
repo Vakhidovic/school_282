@@ -35,7 +35,11 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< Updated upstream:simple carousel/.idea/workspace.xml
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple carousel" />
+>>>>>>> Stashed changes:kh/.idea/workspace.xml
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
@@ -69,10 +73,18 @@
       <created>1653126435495</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream:simple carousel/.idea/workspace.xml
       <updated>1653126435495</updated>
       <workItem from="1653126436808" duration="979000" />
       <workItem from="1653383792020" duration="21000" />
       <workItem from="1653557434653" duration="2582000" />
+=======
+      <updated>1653063179038</updated>
+      <workItem from="1653063180161" duration="2459000" />
+      <workItem from="1653105423983" duration="3217000" />
+      <workItem from="1653113755515" duration="1206000" />
+      <workItem from="1653125288062" duration="609000" />
+>>>>>>> Stashed changes:kh/.idea/workspace.xml
     </task>
     <servers />
   </component>
