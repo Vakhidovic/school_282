@@ -303,8 +303,91 @@ for (var i = 0; i < btns.length; i++) {
 
 
 
-
-
+// change image
+function hoverImg (x) {
+    document.querySelector(".card").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg (x) {
+    document.querySelector(".card").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg2 (x) {
+    document.querySelector(".card11").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillangfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiraseng. </p>
+    `
+}
+function normalImg2 (x) {
+    document.querySelector(".card11").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillangfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg3 (x) {
+    document.querySelector(".card2").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg3 (x) {
+    document.querySelector(".card2").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg4 (x) {
+    document.querySelector(".card3").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg4 (x) {
+    document.querySelector(".card3").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg5 (x) {
+    document.querySelector(".card4").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg5 (x) {
+    document.querySelector(".card4").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg6 (x) {
+    document.querySelector(".card5").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg6 (x) {
+    document.querySelector(".card5").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
 
 
 

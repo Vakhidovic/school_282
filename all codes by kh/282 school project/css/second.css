@@ -11,7 +11,7 @@ a, a:visited {text-decoration: none;}
 a:hover {text-decoration: none;}
 ul li {list-style: none;}
 img {vertical-align: top;}
-
+html{scroll-behavior: smooth;}
 /*ABOUT US*/
 .section__aboutus {
     margin-top: 20%;
