@@ -1,6 +1,6 @@
 /* width */
 ::-webkit-scrollbar {
-    width: 100px;
+    width: 0px;
 }
 ::-webkit-scrollbar-button{
     width: 150px;
@@ -9,6 +9,7 @@
 /* Track */
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px gray;
+    background: #D8DEFD;
     border-radius: 20px;
     width: 100px;
     margin-block: .5em;
@@ -27,6 +28,7 @@
     margin-top: 10px;
 }
 
+
 .sliders {
     width: 1000px;
     display: flex;
@@ -37,20 +39,31 @@
 .slider__img {
     background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
     border-radius: 12.447px;
+    width: 120%;
+    height: 75%;
+    margin: auto;
 
 }
 
 .slider {
-    margin-left: 40px;
-    margin-bottom: 10px;
+    margin-left: 4%;
+    margin-bottom: 1%;
     scroll-behavior: smooth;
     padding: 1rem;
     max-width: 220px;
-
 }
 
 .slider__text {
     background: #fdfdfd;
     width: 100%;
     height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .sliders{
+        width: 500px;
+    }
+    .slider{
+        margin-left: 30px;
+    }
+
 }
