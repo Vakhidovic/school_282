@@ -195,9 +195,13 @@ html {
 
 .section__students {
     width: 100%;
-    height: 900px;
-    margin-top: 50px;
+    margin-top: 8%;
+    padding-bottom: 4%;
+    background-color: white;
     opacity: 100000;
+    border-radius: 50px;
+    position: relative;
+    z-index: 5;
 }
 
 /* width */
@@ -235,7 +239,6 @@ html {
 
 
 .sliders {
-    width: 1200px;
     display: flex;
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -274,7 +277,6 @@ html {
 
 @media screen and (max-width: 768px) {
     .sliders {
-        width: 500px;
         display: flex;
     }
     .slider h1{
@@ -298,9 +300,6 @@ html {
 
     ::-webkit-scrollbar {
         width: 10px;
-    }
-    .sliders{
-        width: 300px;
     }
     /*::-webkit-scrollbar-thumb{*/
     /*    width: 100px;*/
@@ -362,7 +361,7 @@ html {
     border-radius: 50px;
     margin-top: -25%;
     padding-top: 35%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .slideshow-container {
@@ -455,10 +454,6 @@ html {
 
 }
 
-<<<<<<< Updated upstream
-@media screen and (max-width: 475px) {
-    .header__links {
-=======
 @media screen and (max-width: 475px){
     .arrows__slideshow {
         margin-bottom: 10%;
@@ -477,7 +472,6 @@ html {
         width: 100%;
     }
     .header__links{
->>>>>>> Stashed changes
         margin-top: -15%;
     }
 
@@ -796,9 +790,6 @@ html {
     }
 }
 
-@media screen and {
-    
-}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .card {
         width: 45%;
