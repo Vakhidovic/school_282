@@ -361,7 +361,8 @@ html {
     position: relative;
     border-radius: 50px;
     margin-top: -25%;
-    padding-top: 30%;
+    padding-top: 35%;
+    padding-bottom: 10%;
 }
 
 .slideshow-container {
@@ -372,17 +373,23 @@ html {
 
 .mySlides {
     display: none;
+    text-align: center;
+
+}
+.mySlides img{
+    width: 70vw;
 }
 
 .arrows__slideshow {
-    width: 85%;
-    text-align: end;
+    width: 100%;
+    margin-bottom: 7%;
+    text-align: center;
 }
 
 .prev, .next {
     cursor: pointer;
     margin-top: -22px;
-    padding: 16px;
+    padding: 5%;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -448,8 +455,29 @@ html {
 
 }
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 475px) {
     .header__links {
+=======
+@media screen and (max-width: 475px){
+    .arrows__slideshow {
+        margin-bottom: 10%;
+    }
+    .prev img, .next img{
+        width: 10vw;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+    }
+    .mySlides {
+        text-align: center;
+    }
+    .mySlides img{
+        width: 100%;
+    }
+    .header__links{
+>>>>>>> Stashed changes
         margin-top: -15%;
     }
 
