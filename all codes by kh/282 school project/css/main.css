@@ -108,9 +108,9 @@ body {
             body .wrapper .header .header__links .header__item1 .header__link:hover {
               color: #1cb182; }
     body .wrapper .main .section__lessons {
-      margin-top: -20%;
+      margin-top: -25%;
       padding: 6%;
-      padding-top: 25%;
+      padding-top: 30%;
       text-align: center;
       background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
       border-radius: 50px;
@@ -175,6 +175,49 @@ body {
             font-size: 1.4vw; }
             body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button:hover {
               background-color: #23FFBD; }
+          body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi img {
+            width: 25vw;
+            margin-left: 5%; }
+      @media (max-width: 500px) {
+        body .wrapper .main .section__lessons .container__lessons #myDIV {
+          display: inline-block; }
+          body .wrapper .main .section__lessons .container__lessons #myDIV .btn1 {
+            width: 23%;
+            height: 7vw;
+            margin: 1% 0;
+            font-size: 2.8vw; }
+        body .wrapper .main .section__lessons .container__lessons #x {
+          display: inline-block; }
+          body .wrapper .main .section__lessons .container__lessons #x .btn2 {
+            width: 23%;
+            height: 7vw;
+            margin: 1% 0;
+            font-size: 2.8vw; }
+        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button {
+          font-size: 3vw;
+          height: 7vw; }
+        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi img {
+          width: 45vw; } }
+      @media (min-width: 501px) and (max-width: 767px) {
+        body .wrapper .main .section__lessons .container__lessons #myDIV {
+          display: inline-block; }
+          body .wrapper .main .section__lessons .container__lessons #myDIV .btn1 {
+            width: 13%;
+            height: 5vw;
+            margin: 1% 0;
+            font-size: 1.8vw; }
+        body .wrapper .main .section__lessons .container__lessons #x {
+          display: inline-block; }
+          body .wrapper .main .section__lessons .container__lessons #x .btn2 {
+            width: 13%;
+            height: 5vw;
+            margin: 1% 0;
+            font-size: 1.8vw; }
+        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button {
+          font-size: 2vw;
+          height: 4vw; }
+        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi img {
+          width: 40vw; } }
     body .wrapper .main .section__teachers {
       padding-top: 25%;
       margin-top: -25%;

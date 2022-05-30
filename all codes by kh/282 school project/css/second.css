@@ -61,7 +61,7 @@ html {
 
 /*ABOUT US*/
 .section__aboutus {
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     padding: 3% 0;
     width: 100%;
@@ -591,6 +591,22 @@ html {
 }
 
 @media screen and (min-width: 476px) and (max-width: 660px) {
+    .arrows__slideshow {
+        margin-bottom: 10%;
+    }
+    .prev img, .next img{
+        width: 10vw;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+    }
+    .mySlides {
+        text-align: center;
+    }
+    .mySlides img{
+        width: 100%;
+    }
     .header__links {
         margin-top: -15%;
     }
@@ -705,6 +721,22 @@ html {
 }
 
 @media screen and (min-width: 661px) and (max-width: 767px) {
+    .arrows__slideshow {
+        margin-bottom: 10%;
+    }
+    .prev img, .next img{
+        width: 8vw;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+    }
+    .mySlides {
+        text-align: center;
+    }
+    .mySlides img{
+        width: 100%;
+    }
 
     .header__links {
         margin-top: -15%;
@@ -791,6 +823,22 @@ html {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .arrows__slideshow {
+        margin-bottom: 10%;
+    }
+    .prev img, .next img{
+        width: 8vw;
+    }
+    .dot{
+        width: 10px;
+        height: 10px;
+    }
+    .mySlides {
+        text-align: center;
+    }
+    .mySlides img{
+        width: 100%;
+    }
     .card {
         width: 45%;
         margin: 3% 2% 3% 0;
