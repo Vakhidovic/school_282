@@ -59,9 +59,13 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
+
 /*ABOUT US*/
 .section__aboutus {
-    margin-top: 10%;
+    margin-top: 15%;
     display: flex;
     padding: 3% 0;
     width: 100%;
