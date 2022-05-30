@@ -364,7 +364,7 @@
                 <h2>Расписание</h2>
 
                 <div id="myDIV">
-                    <button class="btn1" onclick="sinf1()">1-класс</button>
+                    <button class="btn1 re" onclick="sinf1()">1-класс</button>
                     <button class="btn1" onclick="sinf2()">2-класс</button>
                     <button class="btn1" onclick="sinf3()">3-класс</button>
                     <button class="btn1" onclick="sinf4()">4-класс</button>
@@ -418,11 +418,16 @@
 </div>
 
 
-<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/slideshow.js"></script>
 <script src="js/mainScript.js"></script>
+<script type="text/javascript">
+    $(document).on('click', 'ul li', function(){
+        $(this).addClass('active').siblings().removeClass('active')
+    })
+</script>
 <script>
     var header = document.getElementById("myDIV");
     var btns = header.getElementsByClassName("btn1");
