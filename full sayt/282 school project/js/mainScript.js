@@ -96,6 +96,7 @@ function my4(id) {
             break;
     }
 }
+
 function du() {
     document.querySelector("#table").innerHTML= `
     <div class="card1">
@@ -289,22 +290,96 @@ function raspisaniya2() {
 
 
 
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("btn1");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-        let current = document.getElementsByClassName("active");
-        if (current.length > 0) {
-            current[0].className = current[0].className.replace(" active", "");
-        }
-        this.className += " active";
-    });
+
+
+
+
+
+// change image
+function hoverImg (x) {
+    document.querySelector(".card").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
 }
-
-
-
-
-
+function normalImg (x) {
+    document.querySelector(".card").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg2 (x) {
+    document.querySelector(".card11").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillangfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiraseng. </p>
+    `
+}
+function normalImg2 (x) {
+    document.querySelector(".card11").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillangfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg3 (x) {
+    document.querySelector(".card2").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg3 (x) {
+    document.querySelector(".card2").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg4 (x) {
+    document.querySelector(".card3").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg4 (x) {
+    document.querySelector(".card3").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg5 (x) {
+    document.querySelector(".card4").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg5 (x) {
+    document.querySelector(".card4").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function hoverImg6 (x) {
+    document.querySelector(".card5").innerHTML=`<img src="imgs/computerhover.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
+function normalImg6 (x) {
+    document.querySelector(".card5").innerHTML=`<img src="imgs/computer.png" alt="">
+    <h3>Тема веб-программирования:</h3>
+                        <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
+                            olyna odelogi tiråseng. </p>
+    `
+}
 
 
 
