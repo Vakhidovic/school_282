@@ -366,7 +366,11 @@ html {
     margin-top: -25%;
     padding-top: 35%;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     padding-bottom: 5%;
+=======
+    padding-bottom: 10%;
+>>>>>>> Stashed changes
 =======
     padding-bottom: 10%;
 >>>>>>> Stashed changes
@@ -383,6 +387,12 @@ html {
     text-align: center;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+}
+.mySlides img{
+    width: 70vw;
+>>>>>>> Stashed changes
 =======
 }
 .mySlides img{
