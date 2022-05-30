@@ -6,7 +6,7 @@ Error: Invalid CSS after "...   height: 14vw": expected "{", was ";"
 716: 
 717:             img {
 718:               width: 14vw;
-719: <<<<<<< Updated upstream
+719: 
 720:               height: 14vw;
 721: =======
 722:               height:14vw;
