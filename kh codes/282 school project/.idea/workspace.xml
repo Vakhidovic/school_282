@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="852289bc-252a-487e-ad88-40e408d8e2ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.sass-cache/dcf4104292ba9ba15cecea097f694576523cb2b7/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/dcf4104292ba9ba15cecea097f694576523cb2b7/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/second.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/second.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.idea/282 school project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.sass-cache/1cad9055f8a984763a3e749fd5c9d902ff2b4395/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.sass-cache/7378b6341c178b3291fdf213ba1b8cb60ca03ad3/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.sass-cache/ddafab7fe58f37969beb166f0259943072a50f49/main.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/.sass-cache/ddafab7fe58f37969beb166f0259943072a50f49/media.scssc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/9999.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/Arrow 7 (Stroke).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/Arrow 8 (Stroke).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/Group 93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/Group 94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/Rectangle 264.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/Rectangle 313.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/ScrollToTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/bigLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/computer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/image 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/imgs/teacher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/jquery-3.3.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/mainScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main_codes don't touch it/282 school project/js/slideshow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/.idea/simple carousel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/img/carousel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/img/teacher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../simple carousel/script.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="29ryzAwKPnxKQB81pLlTaYMfyR8" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="852289bc-252a-487e-ad88-40e408d8e2ba" name="Default Changelist" comment="" />
+      <created>1653885758348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653885758348</updated>
+      <workItem from="1653885759531" duration="8211000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
