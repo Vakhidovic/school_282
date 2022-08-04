@@ -2,7 +2,7 @@
 function my4(id) {
     switch (id) {
         case 1:
-            document.querySelector("#x").innerHTML =
+            document.querySelector(".buttons2").innerHTML =
                 `
                    <button class="btn2 " onclick="du()">A1</button>
                    <button class="btn2 " onclick="du()">B</button>
@@ -261,8 +261,41 @@ function sinf9() {
 
 function raspisaniya() {
     document.querySelector(".img__raspi").innerHTML=`
-    <img src="imgs/image%205.png" alt="">
-    `
+    <div class="card2">
+        <h3>Понедельник</h3>
+        <p>Lorem ipsum.1</p>
+        <hr>
+        <p>Lorem ipsum.2</p>
+        <hr>
+        <p>Lorem ipsum.3</p>
+        <hr>
+        <p>Lorem ipsum.4</p>
+        <hr>
+        <p>Lorem ipsum.5</p>
+        <hr>
+        <p>Lorem ipsum.6</p>
+        <hr>
+        <p>Lorem ipsum.7</p>
+        <hr>
+    </div>
+     <div class="card2">
+        <h3>Понедельник</h3>
+        <p>Lorem ipsum.1</p>
+        <hr>
+        <p>Lorem ipsum.2</p>
+        <hr>
+        <p>Lorem ipsum.3</p>
+        <hr>
+        <p>Lorem ipsum.4</p>
+        <hr>
+        <p>Lorem ipsum.5</p>
+        <hr>
+        <p>Lorem ipsum.6</p>
+        <hr>
+        <p>Lorem ipsum.7</p>
+        <hr>
+    </div>
+    `;
 }
 function raspisaniya2() {
     document.querySelector(".img__raspi").innerHTML=` `

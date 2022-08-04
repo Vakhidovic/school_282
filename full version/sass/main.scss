@@ -221,7 +221,7 @@ body {
 
           }
 
-          #x {
+           .buttons2{
             width: 100%;
             margin: 2% auto;
             display: flex;
@@ -239,11 +239,12 @@ body {
               &:hover {
                 background-color: #23FFBD;
               }
+              &:focus {
+                background-color: #23FFBD;
+              }
             }
 
-            .active {
-              background-color: #23FFBD;
-            }
+
           }
 
           .btn-raspisaniya {
@@ -251,25 +252,25 @@ body {
             margin: auto;
             display: flex;
             justify-content: left;
-            padding: 1% 0;
+            padding: 5% 0 0 0;
 
-            button {
+            .btn-raspisaniya2 {
               outline: 0;
+              width: 25%;
               height: 2.5vw;
               padding: 0 1%;
               border-radius: 20px;
               font-size: 1.4vw;
-
-              &:hover {
+              background-color: #fff;
+              &:hover, &:focus {
                 background-color: #23FFBD;
               }
             }
 
             .img__raspi {
-              img {
-                width: 25vw;
-                margin-left: 5%;
-              }
+              display: flex;
+              width: 100%;
+              justify-content: space-evenly;
             }
           }
         }
@@ -358,6 +359,7 @@ body {
         .carousel {
           .carousel-inner {
             .carousel-item {
+              height: 100vh;
               .container__teachers {
                 width: 85%;
                 margin: auto;
@@ -368,13 +370,13 @@ body {
                   padding-top: 10%;
 
                   img {
-                    width: 25vw;
+                    width: 20vw;
                   }
                 }
 
                 .content__teachers {
                   color: white;
-                  padding-top: 8%;
+                  padding: 8% 0 0 0;
                   width: 40%;
                   font-family: 'Lato', sans-serif;
                   font-style: normal;
@@ -504,9 +506,12 @@ body {
             font-weight: 500;
             font-size: 3vw;
             text-decoration: none;
+            transition: all 0.3s;
+            transition-timing-function: linear;
 
             &:hover {
               color: #1cb182;
+
             }
           }
         }
@@ -524,7 +529,7 @@ body {
 
             &:hover {
               color: #23FFBD;
-              font-size: 1.5vw;
+              transition: all 0.2s ease-in-out;
             }
           }
         }
@@ -551,10 +556,6 @@ body {
 
             a {
               margin: 0 1.5%;
-
-              img:hover {
-                width: 3vw;
-              }
             }
           }
         }
