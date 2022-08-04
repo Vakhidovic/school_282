@@ -141,7 +141,8 @@ body {
             border: none;
             outline: none;
             cursor: pointer;
-            font-size: 1.2vw; }
+            font-size: 1.2vw;
+            background-color: white; }
           body .wrapper .main .section__lessons .container__lessons #myDIV .btn1:hover {
             background-color: #23FFBD; }
           body .wrapper .main .section__lessons .container__lessons #myDIV .active {
@@ -158,7 +159,8 @@ body {
             font-size: 1vw;
             border: none;
             outline: none;
-            cursor: pointer; }
+            cursor: pointer;
+            background-color: white; }
             body .wrapper .main .section__lessons .container__lessons .buttons2 .btn2:hover {
               background-color: #23FFBD; }
             body .wrapper .main .section__lessons .container__lessons .buttons2 .btn2:focus {
@@ -171,7 +173,7 @@ body {
           padding: 5% 0 0 0; }
           body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .btn-raspisaniya2 {
             outline: 0;
-            width: 25%;
+            width: 140%;
             height: 2.5vw;
             padding: 0 1%;
             border-radius: 20px;
@@ -198,11 +200,25 @@ body {
             height: 7vw;
             margin: 1% 0;
             font-size: 2.8vw; }
-        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button {
-          font-size: 3vw;
-          height: 7vw; }
-        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi img {
-          width: 45vw; } }
+        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya {
+          display: grid;
+          grid-template-columns: 1fr; }
+          body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .btn-raspisaniya2 {
+            width: 100%;
+            font-size: 3vw;
+            height: 8vw; }
+          body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi {
+            padding-top: 5%;
+            display: grid;
+            grid-template-columns: 1fr; }
+            body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi .card2 {
+              margin-top: 5%;
+              padding-top: 5%;
+              width: 100%; }
+              body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi .card2 h3 {
+                font-size: 4vw; }
+              body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi .card2 p {
+                font-size: 3vw; } }
       @media (min-width: 501px) and (max-width: 767px) {
         body .wrapper .main .section__lessons .container__lessons #myDIV {
           display: inline-block; }
@@ -218,7 +234,7 @@ body {
             height: 5vw;
             margin: 1% 0;
             font-size: 1.8vw; }
-        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya button {
+        body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .btn-raspisaniya2 {
           font-size: 2vw;
           height: 4vw; }
         body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi img {
@@ -230,7 +246,7 @@ body {
       background: linear-gradient(274.78deg, #325DE9 0%, #548CF6 100%);
       border-radius: 50px; }
       body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item {
-        height: 100vh; }
+        padding-bottom: 5%; }
         body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item .container__teachers {
           width: 85%;
           margin: auto;
@@ -335,8 +351,7 @@ body {
           width: 36%; }
           body .wrapper .footer .container__footer .footer__location .footer__map iframe {
             border-radius: 50px;
-            border: 3px solid #325DE9;
-            box-shadow: 6px 6px 8px #325DE9;
+            box-shadow: 0 0 18px rgba(0, 0, 0, 0.69);
             width: 30vw;
             height: 20vw; }
           body .wrapper .footer .container__footer .footer__location p {
@@ -444,7 +459,6 @@ body {
     body .wrapper .header .img__header .scrolltop img {
       width: 14vw;
       height: 14vw;
-      height: 14vw;
       height: 14vw; }
   body .wrapper .header .img__header .title__header {
     margin-top: -80%; }
@@ -466,31 +480,33 @@ body {
       display: block; }
     body .wrapper .header .header__links .header__item1 .header__link {
       font-size: 5vw; }
-  body .wrapper main {
+  body .wrapper .main {
     margin-top: 55%; }
-    body .wrapper main .section__aboutus {
+    body .wrapper .main .section__aboutus {
       display: block; }
-      body .wrapper main .section__aboutus .img__aboutUS {
+      body .wrapper .main .section__aboutus .img__aboutUS {
         display: block; }
-        body .wrapper main .section__aboutus .img__aboutUS h3 {
+        body .wrapper .main .section__aboutus .img__aboutUS h3 {
           display: block;
           font-family: 'Lato', sans-serif;
           font-style: normal;
           font-weight: 700;
           text-align: center;
           font-size: 9vw; }
-        body .wrapper main .section__aboutus .img__aboutUS img {
+        body .wrapper .main .section__aboutus .img__aboutUS img {
           width: 90vw; }
-      body .wrapper main .section__aboutus .text__aboutUS {
+      body .wrapper .main .section__aboutus .text__aboutUS {
         margin-top: 2%;
         width: 120%; }
-        body .wrapper main .section__aboutus .text__aboutUS h2 {
+        body .wrapper .main .section__aboutus .text__aboutUS h2 {
           display: none; }
-        body .wrapper main .section__aboutus .text__aboutUS p {
+        body .wrapper .main .section__aboutus .text__aboutUS p {
           font-size: 4vw;
           line-height: 22px;
           font-weight: 500;
-          padding: 3%; } }
+          padding: 3%; }
+    body .wrapper .main .section__teachers .carousel .carousel-inner .carousel-item {
+      padding-bottom: 15%; } }
 @media screen and (min-width: 500px) and (max-width: 639px) {
   body .wrapper .header .img__header .imglogo2 {
     width: 160%;

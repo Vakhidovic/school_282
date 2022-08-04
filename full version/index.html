@@ -40,21 +40,21 @@
             <div class="header__item1">
                 <a class="header__link" href="#">Школа<sup>282</sup></a></div>
             <div class="header__item">
-                <a class="header__link" href="#">О школе</a></div>
+                <a class="header__link" href="#About">О школе</a></div>
             <div class="header__item">
-                <a class="header__link" href="#">Учителя</a></div>
+                <a class="header__link" href="#Teachers">Учителя</a></div>
             <div class="header__item">
-                <a class="header__link" href="#">Кружки школы</a></div>
+                <a class="header__link" href="#Krujki">Кружки школы</a></div>
             <div class="header__item">
-                <a class="header__link" href="#">Мероприятия</a></div>
+                <a class="header__link" href="#slideshow">Мероприятия</a></div>
             <div class="header__item">
-                <a class="header__link" href="#">Расписание</a></div>
+                <a class="header__link" href="#raspisaniya">Расписание</a></div>
         </div>
 
     </header>
 
     <main class="main">
-        <div class="section__aboutus">
+        <div id="About" class="section__aboutus">
             <div class="img__aboutUS">
                 <h3>О школе</h3>
                 <a href=""><img src="imgs/maktab.jpg" alt=""></a>
@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="section__teachers">
+        <div id="Teachers" class="section__teachers">
             <div id="demo" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0"></li>
@@ -143,7 +143,7 @@
                             </div>
                         </div>
                         <div class="img__teachers2">
-                            <img src="imgs/mansur.png" alt="">
+                            <img src="imgs/Gulfiya.jpg" alt="">
                         </div>
                     </div>
 
@@ -155,7 +155,7 @@
                             <div class="content__teachers">
                                 <h2>Наши учителя</h2>
                                 <div class="texts__teachers">
-                                    <h4>Сергей Буйняков3 </h4>
+                                    <h4>Каипова Гульзар Орыенбаева</h4>
                                     <h5>Рус тили ва адабиёти укитувчиси</h5>
                                     <p>Яшнабод тумани 282-мактаб рус тили ва адабиёти укитувчиси.</p>
                                     <div class="title__teachers">
@@ -214,14 +214,14 @@
                             </div>
                         </div>
                         <div class="img__teachers2">
-                            <img src="imgs/mansur.png" alt="">
+                            <img src="imgs/ravshanoy3.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="section__togaraklar">
+        <div id="Krujki" class="section__togaraklar">
             <div class="container1">
                 <div class="togarak__text"><h2>Кружки школы</h2></div>
                 <div class="section__cards">
@@ -237,7 +237,7 @@
                         <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
                             olyna odelogi tiråseng. </p>
                     </div>
-                    <div class="card card2">
+                    <div class="card card11">
                         <img class="img" src="imgs/computer.png" alt="">
                         <h3>Тема веб-программирования:</h3>
                         <p>Lörem ipsum sor devasm vurade. Fonotiv tenera mobillångfilm i tiråligt krortad. Pasat osa
@@ -265,7 +265,7 @@
             </div>
         </div>
 
-        <div class="section__slideshow">
+        <div id="slideshow" class="section__slideshow">
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <img src="imgs/maktab.jpg" alt="">
@@ -297,7 +297,7 @@
             </div>
         </div>
 
-        <div class="section__students">
+        <div  class="section__students">
             <div class="students__container">
                 <h2>Гордость школы</h2>
                 <div class="sliders">
@@ -381,7 +381,7 @@
             </div>
         </div>
 
-        <div class="section__lessons">
+        <div id="raspisaniya" class="section__lessons">
             <div class="container__lessons">
                 <h2>Расписание</h2>
 
@@ -401,7 +401,9 @@
                 <div id="table" class="table-raspisaniya"></div>
 
                 <div class="btn-raspisaniya">
-                    <button class="btn-raspisaniya2" onclick="raspisaniya()">Расписание звонков</button>
+                    <div class="btn-raspisaniya32">
+                        <button class="btn-raspisaniya2" onclick="raspisaniya()">
+                        Расписание звонков</button></div>
 
                     <div class="img__raspi">
 
@@ -417,11 +419,11 @@
                 <a href="">Школа<sup>282</sup></a>
             </div>
             <div class="footer__nav">
-                <a href="">О школе</a>
-                <a href="">Учителя</a>
-                <a href="">Кружки школы</a>
-                <a href="">Мероприятия</a>
-                <a href="">Расписание</a>
+                <a href="#About">О школе</a>
+                <a href="#Teachers">Учителя</a>
+                <a href="#Krujki">Кружки школы</a>
+                <a href="#slideshow">Мероприятия</a>
+                <a href="#raspisaniya">Расписание</a>
             </div>
             <div class="footer__location">
                 <div class="footer__map">

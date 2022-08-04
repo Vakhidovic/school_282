@@ -100,122 +100,122 @@ function my4(id) {
 function du() {
     document.querySelector("#table").innerHTML= `
     <div class="card1">
-        <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+       <h3>Понедельник</h3>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
-        <hr>
-    </div>
-    <div class="card1">
-        <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
-        <hr>
-        <p>Lorem ipsum.2</p>
-        <hr>
-        <p>Lorem ipsum.3</p>
-        <hr>
-        <p>Lorem ipsum.4</p>
-        <hr>
-        <p>Lorem ipsum.5</p>
-        <hr>
-        <p>Lorem ipsum.6</p>
-        <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
         <hr>
     </div>
     <div class="card1">
         <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
+        <hr>
+    </div>
+    <div class="card1">
+      <h3>Понедельник</h3>
+        <p>1. Matematika</p>
+        <hr>
+        <p>2. Matematika</p>
+        <hr>
+        <p>3. Matematika</p>
+        <hr>
+        <p>4. Matematika</p>
+        <hr>
+        <p>5. Matematika</p>
+        <hr>
+        <p>6. Matematika</p>
+        <hr>
+        <p>7. Algebra</p>
+        <hr>
+    </div>
+    <div class="card1">
+      <h3>Понедельник</h3>
+        <p>1. Matematika</p>
+        <hr>
+        <p>2. Matematika</p>
+        <hr>
+        <p>3. Matematika</p>
+        <hr>
+        <p>4. Matematika</p>
+        <hr>
+        <p>5. Matematika</p>
+        <hr>
+        <p>6. Matematika</p>
+        <hr>
+        <p>7. Algebra</p>
         <hr>
     </div>
     <div class="card1">
         <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
-        <hr>
-    </div>
-    <div class="card1">
-        <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
-        <hr>
-        <p>Lorem ipsum.2</p>
-        <hr>
-        <p>Lorem ipsum.3</p>
-        <hr>
-        <p>Lorem ipsum.4</p>
-        <hr>
-        <p>Lorem ipsum.5</p>
-        <hr>
-        <p>Lorem ipsum.6</p>
-        <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
         <hr>
     </div>
     <div class="card1">
-        <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+       <h3>Понедельник</h3>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
         <hr>
     </div>
     <div class="card1">
-        <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+      <h3>Понедельник</h3>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
         <hr>
     </div>
     `
@@ -260,39 +260,43 @@ function sinf9() {
 
 
 function raspisaniya() {
+    document.querySelector(".btn-raspisaniya32").innerHTML=``;
+    document.querySelector(".btn-raspisaniya32").innerHTML=`
+    <button class="btn-raspisaniya3"> Расписание звонков</button> `;
+
     document.querySelector(".img__raspi").innerHTML=`
     <div class="card2">
         <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
         <hr>
     </div>
      <div class="card2">
-        <h3>Понедельник</h3>
-        <p>Lorem ipsum.1</p>
+      <h3>Понедельник</h3>
+        <p>1. Matematika</p>
         <hr>
-        <p>Lorem ipsum.2</p>
+        <p>2. Matematika</p>
         <hr>
-        <p>Lorem ipsum.3</p>
+        <p>3. Matematika</p>
         <hr>
-        <p>Lorem ipsum.4</p>
+        <p>4. Matematika</p>
         <hr>
-        <p>Lorem ipsum.5</p>
+        <p>5. Matematika</p>
         <hr>
-        <p>Lorem ipsum.6</p>
+        <p>6. Matematika</p>
         <hr>
-        <p>Lorem ipsum.7</p>
+        <p>7. Algebra</p>
         <hr>
     </div>
     `;
