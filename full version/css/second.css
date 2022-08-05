@@ -66,6 +66,7 @@ html {
     border-radius: 20px;
     width: 140%;
     font-size: 1.4vw;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.62);
 }
 
 
@@ -339,6 +340,7 @@ html {
     width: 13%;
     padding: 1%;
     background-color: whitesmoke;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.62);
 }
 
 .card1 h3 {

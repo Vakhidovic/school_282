@@ -142,16 +142,17 @@ body {
             outline: none;
             cursor: pointer;
             font-size: 1.2vw;
-            background-color: white; }
+            background-color: white;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.62); }
           body .wrapper .main .section__lessons .container__lessons #myDIV .btn1:hover {
             background-color: #23FFBD; }
           body .wrapper .main .section__lessons .container__lessons #myDIV .active {
             background-color: #23FFBD; }
         body .wrapper .main .section__lessons .container__lessons .buttons2 {
-          width: 100%;
-          margin: 2% auto;
+          width: 50%;
+          margin: 2% 0;
           display: flex;
-          justify-content: left; }
+          justify-content: space-between; }
           body .wrapper .main .section__lessons .container__lessons .buttons2 .btn2 {
             width: 7vw;
             height: 2.5vw;
@@ -160,7 +161,8 @@ body {
             border: none;
             outline: none;
             cursor: pointer;
-            background-color: white; }
+            background-color: white;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.62); }
             body .wrapper .main .section__lessons .container__lessons .buttons2 .btn2:hover {
               background-color: #23FFBD; }
             body .wrapper .main .section__lessons .container__lessons .buttons2 .btn2:focus {
@@ -178,13 +180,20 @@ body {
             padding: 0 1%;
             border-radius: 20px;
             font-size: 1.4vw;
-            background-color: #fff; }
+            background-color: #fff;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.62); }
             body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .btn-raspisaniya2:hover, body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .btn-raspisaniya2:focus {
               background-color: #23FFBD; }
           body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi {
             display: flex;
             width: 100%;
             justify-content: space-evenly; }
+            body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi .raspi-table {
+              box-shadow: 0 0 8px rgba(0, 0, 0, 0.62); }
+            body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi .raspi-table h3 {
+              font-size: 1.5vw; }
+            body .wrapper .main .section__lessons .container__lessons .btn-raspisaniya .img__raspi .raspi-table p {
+              font-size: 1.5vw; }
       @media (max-width: 500px) {
         body .wrapper .main .section__lessons .container__lessons #myDIV {
           display: inline-block; }

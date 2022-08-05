@@ -265,38 +265,38 @@ function raspisaniya() {
     <button class="btn-raspisaniya3"> Расписание звонков</button> `;
 
     document.querySelector(".img__raspi").innerHTML=`
-    <div class="card2">
-        <h3>Понедельник</h3>
-        <p>1. Matematika</p>
+    <div class="card2 raspi-table">
+        <h3>1-смена</h3>
+        <p>1. 8.00 - 8.45 </p>
         <hr>
-        <p>2. Matematika</p>
+        <p>2. 8.55 - 9.35</p>
         <hr>
-        <p>3. Matematika</p>
+        <p>3. 9.40 - 10.25</p>
         <hr>
-        <p>4. Matematika</p>
+        <p>4. 10.30 - 11.15</p>
         <hr>
-        <p>5. Matematika</p>
+        <p>5. 11.25 - 12.10</p>
         <hr>
-        <p>6. Matematika</p>
+        <p>6. 12.15 - 12.20</p>
         <hr>
-        <p>7. Algebra</p>
+        <p>7. 13.05 - 13.50</p>
         <hr>
     </div>
-     <div class="card2">
-      <h3>Понедельник</h3>
-        <p>1. Matematika</p>
+     <div class="card2 raspi-table">
+      <h3>2-смена</h3>
+        <p>1. 13.05 - 13.50</p>
         <hr>
-        <p>2. Matematika</p>
+        <p>2. 13.55 - 14.40</p>
         <hr>
-        <p>3. Matematika</p>
+        <p>3. 14.45 - 15.30</p>
         <hr>
-        <p>4. Matematika</p>
+        <p>4. 15.35 - 16.20</p>
         <hr>
-        <p>5. Matematika</p>
+        <p>5. 16.30 - 17.15</p>
         <hr>
-        <p>6. Matematika</p>
+        <p>6. 17.20 - 18.05</p>
         <hr>
-        <p>7. Algebra</p>
+        <p>7. 18.10 - 18.55</p>
         <hr>
     </div>
     `;
