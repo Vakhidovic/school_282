@@ -97,6 +97,14 @@ function my4(id) {
     }
 }
 
+
+function HoverNav(){
+    document.querySelector(".header__links").style="margin-top: 0"
+}
+function HoverNav2(){
+    document.querySelector(".header__links").style="margin-top: -4.5%"
+}
+
 function du() {
     document.querySelector("#table").innerHTML= `
     <div class="card1">
@@ -267,40 +275,46 @@ function raspisaniya() {
     document.querySelector(".img__raspi").innerHTML=`
     <div class="card2 raspi-table">
         <h3>1-смена</h3>
-        <p>1. 8.00 - 8.45 </p>
+        <div><p>1.</p><p>8.00 - 8.45</p></div>
         <hr>
-        <p>2. 8.55 - 9.35</p>
+        <div><p>2.</p><p>8.55 - 9.35</p></div>
         <hr>
-        <p>3. 9.40 - 10.25</p>
+        <div><p>3.</p><p>9.40 - 10.25</p></div>
         <hr>
-        <p>4. 10.30 - 11.15</p>
+        <div><p>4.</p><p>10.30 - 11.15</p></div>
         <hr>
-        <p>5. 11.25 - 12.10</p>
+        <div><p>5.</p><p>11.25 - 12.10</p></div>
         <hr>
-        <p>6. 12.15 - 12.20</p>
+        <div><p>6.</p><p>12.15 - 12.20</p></div>
         <hr>
-        <p>7. 13.05 - 13.50</p>
+        <div><p>7.</p><p>13.05 - 13.50</p></div>
         <hr>
     </div>
      <div class="card2 raspi-table">
       <h3>2-смена</h3>
-        <p>1. 13.05 - 13.50</p>
+         <div><p>1.</p><p>13.05 - 13.50</p></div>
         <hr>
-        <p>2. 13.55 - 14.40</p>
+        <div><p>2.</p><p>13.55 - 14.40</p></div>
         <hr>
-        <p>3. 14.45 - 15.30</p>
+        <div><p>3.</p><p>14.45 - 15.30</p></div>
         <hr>
-        <p>4. 15.35 - 16.20</p>
+        <div><p>4.</p><p>15.35 - 16.20</p></div>
         <hr>
-        <p>5. 16.30 - 17.15</p>
+        <div><p>5.</p><p>16.30 - 17.15</p></div>
         <hr>
-        <p>6. 17.20 - 18.05</p>
+        <div><p>6.</p><p>17.20 - 18.05</p></div>
         <hr>
-        <p>7. 18.10 - 18.55</p>
+        <div><p>7.</p><p>18.10 - 18.55</p></div>
         <hr>
+      
     </div>
     `;
 }
+
+
+
+
+
 function raspisaniya2() {
     document.querySelector(".img__raspi").innerHTML=` `
 }

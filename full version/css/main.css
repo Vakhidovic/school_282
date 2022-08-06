@@ -371,6 +371,8 @@ body {
             justify-content: end; }
             body .wrapper .footer .container__footer .footer__location .footer__icons a {
               margin: 0 1.5%; }
+              body .wrapper .footer .container__footer .footer__location .footer__icons a img {
+                width: 2vw; }
       @media (max-width: 500px) {
         body .wrapper .footer .container__footer {
           display: block;
